@@ -20,7 +20,7 @@ export default function ResponsiveNavbar() {
     return (
         <MDBNavbar className=' bg-gradient-to-r from-blue-100 to-slate-600' expand='lg' light bgColor='light'>
             <MDBContainer fluid>
-                <MDBNavbarBrand href='/'>My Cape Verde</MDBNavbarBrand>
+                <MDBNavbarLink href='/'>My Cape Verde</MDBNavbarLink>
                 <MDBNavbarToggler
                     aria-expanded='false'
                     aria-label='Toggle navigation'

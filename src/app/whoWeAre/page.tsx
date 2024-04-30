@@ -1,6 +1,7 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ResponsiveNavbar from "../components/ResponsiveNavbar"
 import Image from 'next/image'
+import DonateButton from '../components/DonateButton';
 
 
 export const metadata = {
@@ -25,6 +26,7 @@ export default function WhoWeAre() {
                 <div>
                     <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500}/>
                 </div>
+                <DonateButton/>
             </div>
         </div>
 

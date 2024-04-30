@@ -1,6 +1,7 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ResponsiveNavbar from "../components/ResponsiveNavbar"
 import Image from 'next/image'
+import DonateButton from '../components/DonateButton';
 
 
 export const metadata = {
@@ -17,14 +18,15 @@ export default function WhatWeDo() {
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non quaerat corporis, voluptatibus illum optio, explicabo alias quis harum asperiores neque, eius beatae. Architecto aliquam amet aliquid neque iure quam quidem.
                 </p>
                 <div style={{ width: '100%' }}>
-                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500}/>
+                    <Image className='w-full px-3 py-3' src="/images/OIP (1).jpeg" alt='young child' width={500} height={500}/>
                 </div>
                 <p className='text-black px-5 text-xl py-3'>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, similique fugit eveniet corrupti magni quam amet aperiam! Saepe ipsa nesciunt debitis? Nemo eveniet fuga debitis et. Odio quas laborum aliquid?
                 </p>
                 <div>
-                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500}/>
+                    <Image className='w-full px-3 py-3' src="/images/south-africa-fivepointsix-shutterstock.jpg" alt='young child' width={500} height={500}/>
                 </div>
+                <DonateButton/>
             </div>
         </div>
 

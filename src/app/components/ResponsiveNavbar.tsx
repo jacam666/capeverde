@@ -19,9 +19,9 @@ export default function ResponsiveNavbar() {
     const [openNavSecond, setOpenNavSecond] = useState(false);
 
     return (
-        <MDBNavbar className=' bg-gradient-to-r from-blue-100 to-slate-600 text-black' expand='lg' light bgColor='light'>
-            <MDBContainer fluid>
-                <MDBNavbarLink href='/'>My Cape Verde</MDBNavbarLink>
+        <MDBNavbar className=' bg-gradient-to-r from-blue-200 to-slate-600 text-black' expand='lg' light bgColor='light'>
+            <MDBContainer fluid className=''>
+                <MDBNavbarLink href='/' style={{ fontSize: '1.5rem' }}>My Cape Verde</MDBNavbarLink>
                 <MDBNavbarToggler
                     aria-expanded='false'
                     aria-label='Toggle navigation'
@@ -34,9 +34,9 @@ export default function ResponsiveNavbar() {
                         <MDBNavbarLink active aria-current='page' href='/'>
                             Home
                         </MDBNavbarLink>
-                        <MDBNavbarLink className='text-black' href='./whatWeDo'>What we do</MDBNavbarLink>
-                        <MDBNavbarLink className='text-black' href='./whoWeAre'>Who we are</MDBNavbarLink>
-                        <MDBNavbarLink className='text-black' href='./getInvolved'>Get involved</MDBNavbarLink>
+                        <MDBNavbarLink className='text-black ' href='./whatWeDo'>What we do</MDBNavbarLink>
+                        <MDBNavbarLink className='text-black ' href='./whoWeAre'>Who we are</MDBNavbarLink>
+                        <MDBNavbarLink className='text-black ' href='./getInvolved'>Get involved</MDBNavbarLink>
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBContainer>

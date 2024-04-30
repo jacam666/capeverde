@@ -30,12 +30,12 @@ export default function ResponsiveNavbar() {
                 </MDBNavbarToggler>
                 <MDBCollapse navbar open={openNavSecond}>
                     <MDBNavbarNav>
-                        <MDBNavbarLink active aria-current='page' href='#'>
+                        <MDBNavbarLink active aria-current='page' href='/'>
                             Home
                         </MDBNavbarLink>
-                        <MDBNavbarLink href='#'>What we do</MDBNavbarLink>
-                        <MDBNavbarLink href='#'>Who we are</MDBNavbarLink>
-                        <MDBNavbarLink href='#'>Get involved</MDBNavbarLink>
+                        <MDBNavbarLink href='./whatWeDo'>What we do</MDBNavbarLink>
+                        <MDBNavbarLink href='./whoWeAre'>Who we are</MDBNavbarLink>
+                        <MDBNavbarLink href='./getInvolved'>Get involved</MDBNavbarLink>
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBContainer>

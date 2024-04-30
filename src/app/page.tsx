@@ -1,7 +1,9 @@
+"useClient"
 import ResponsiveNavbar from "./components/ResponsiveNavbar";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Image from 'next/image'
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +19,7 @@ export default function Home() {
       <div style={{ width: '100%' }}>
         <Image className="w-full" src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt="verde"  width={1200}  height={100} style={{height: '40vh'}}/>
       </div> 
+      <Footer/>
     </div>
   );
 }

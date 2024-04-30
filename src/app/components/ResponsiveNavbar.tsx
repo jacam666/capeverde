@@ -1,11 +1,12 @@
 "use client"
 "refresh reset"
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import React, { useState } from 'react';
 import {
     MDBContainer,
     MDBNavbar,
-    MDBNavbarBrand,
     MDBNavbarToggler,
     MDBNavbarNav,
     MDBNavbarItem,

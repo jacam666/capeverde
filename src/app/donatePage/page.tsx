@@ -14,7 +14,7 @@ export default function Donate() {
             <ResponsiveNavbar />
             <div className=' bg-white text-black px-3 text-center'>
                 <h1 className='text-center text-5xl py-3 text-black'>There are several ways to donate:</h1>
-                <div className='border border-gray-400 shadow-md py-2  my-3'>=
+                <div className='border border-gray-400 shadow-md py-2  my-3'>
                     <h2>Make a monetary donation</h2>
                     <DonateButton />
                 </div>
@@ -27,7 +27,6 @@ export default function Donate() {
                         families for storage.
                     </p>
                 </div>
-
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
                     <p className=' text-black text-xl text-left  px-4'>Bring donations or leave items behind at the end of your holiday. It can be difficult to get items
                         onto the islands and many locals cannot afford the high price tags for basic items like clothing,
@@ -87,15 +86,21 @@ export default function Donate() {
                         Many children do not brush their teeth regularly. Tourists feel sorry for the children and give
                         them sweets, unaware that they do not brush their teeth. On our activity events, we always try
                         and ensure that each child gets a toothbrush and toothpaste at the end of the event.<br />
-                        At My Cape Verde, we try to encourage donors to be as eco-friendly as possible Reusable
-                        incontinence pads, reusable sanitary pads, period pants, or period cups and reusable nappies
-                        are not only better for the environment, but also save the families money longer term.
-                        Medical aids are expensive in Cape Verde. Wheelchairs and walking frames are in short supply if
-                        you are able to donate one that is no longer needed. Unwanted spectacles/reading glasses can
-                        be donated to health centres.
-                        The shanty towns can be very dusty and dirty. Travel cots are beneficial for keeping babies and
-                        toddlers in a cleaner environment
                     </p>
+                    <p className='text-black  text-xl py-2 text-left px-4'>At My Cape Verde, we try to encourage donors to be as eco-friendly as possible Reusable
+                        incontinence pads, reusable sanitary pads, period pants, or period cups and reusable nappies
+                        are not only better for the environment, but also save the families money longer term.<br />
+                    </p>
+
+                    <div>
+                        <p className='text-black  text-xl py-2 text-left px-4'>Medical aids are expensive in Cape Verde. Wheelchairs and walking frames are in short supply if
+                            you are able to donate one that is no longer needed. Unwanted spectacles/reading glasses can
+                            be donated to health centres.
+                            The shanty towns can be very dusty and dirty. Travel cots are beneficial for keeping babies and
+                            toddlers in a cleaner environment
+                        </p>
+                    </div>
+
                     <h2>Donation Ideas</h2>
                     <li>Toothbrushes and toothpastes</li>
                     <li>Soaps</li>
@@ -120,20 +125,20 @@ export default function Donate() {
                     </p>
                     <h2>Donation Ideas</h2>
                     <li>Football kits</li>
-    <li>Football boots</li>
-    <li>Basketball/netball vests and shorts</li>
-    <li>Sneakers/trainers</li>
-    <li>Polo shirts</li>
-    <li>Shorts</li>
-    <li>Footballs</li>
-    <li>Basketballs</li>
-    <li>Hand balls</li>
-    <li>Volleyballs</li>
-    <li>Swimming aids</li>
-    <li>Musical instruments</li>
-    <li>Skipping ropes</li>
-    <li>Board games</li>
-    <li>Jigsaws</li>
+                    <li>Football boots</li>
+                    <li>Basketball/netball vests and shorts</li>
+                    <li>Sneakers/trainers</li>
+                    <li>Polo shirts</li>
+                    <li>Shorts</li>
+                    <li>Footballs</li>
+                    <li>Basketballs</li>
+                    <li>Hand balls</li>
+                    <li>Volleyballs</li>
+                    <li>Swimming aids</li>
+                    <li>Musical instruments</li>
+                    <li>Skipping ropes</li>
+                    <li>Board games</li>
+                    <li>Jigsaws</li>
                 </div>
             </div>
         </div>

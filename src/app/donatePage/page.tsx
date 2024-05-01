@@ -33,7 +33,7 @@ export default function Donate() {
                         toiletries and sanitary products. If you have a little space in your suitcase for some items, these
                         would be greatly appreciated. If you would like to bring a whole suitcase, we can apply for extra
                         luggage allowance (for UK travellers) so it need not affect your own allowance. Or alternatively,
-                        leave some of your clothing behind at the end of your holiday. Children’s clothing is always needed, so if your child will have outgrown their clothes or shoes by the next summer, these
+                        leave some of your clothing behind at the end of your holiday. <br/>Children’s clothing is always needed, so if your child will have outgrown their clothes or shoes by the next summer, these
                         could be left behind for a family. Please only donate items in good condition as the refuse
                         system is basic on the islands.
                     </p>
@@ -50,6 +50,18 @@ export default function Donate() {
                         Shoes, sandals and trainers (sneakers).<br />
                         Bed sheets.
                     </p>
+                    <div className="grid grid-cols-2 gap-2">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/clothing-donation(3).jpeg" alt="Image 1" className="max-w-full " />
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/clothing-donations-2(3).jpeg" alt="Image 2" className="max-w-full " />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='border border-gray-400 shadow-md py-4 my-3'>
                     <h1 className='px-4'>School supplies</h1>
@@ -73,10 +85,22 @@ export default function Donate() {
                     <li>Colouring books</li>
                     <li>Crayons</li>
                     <li>Paints and brushes</li>
+                    <div className="grid grid-cols-2 gap-2">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/school2.jpg" alt="Image 1" className="max-w-full " />
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/download_schooledited.jpg" alt="Image 2" className="max-w-full " />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
+                {/* <div>
                     <Image className='w-full  py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
-                </div>
+                </div> */}
                 <div className='border border-gray-400 shadow-md py-4 my-3' style={{ margin: 'auto' }}>
                     <h1 className='px-4'>Health and medical aids</h1>
                     <p className='text-black  text-xl py-3 text-left px-4'>
@@ -87,6 +111,11 @@ export default function Donate() {
                         them sweets, unaware that they do not brush their teeth. On our activity events, we always try
                         and ensure that each child gets a toothbrush and toothpaste at the end of the event.<br />
                     </p>
+                    <div className="flex justify-center">
+                        <div className="image-container">
+                            <img src="/images/cape verde health.jpeg" alt="Image 1" className="max-w-full " />
+                        </div>
+                    </div>
                     <p className='text-black  text-xl py-2 text-left px-4'>At My Cape Verde, we try to encourage donors to be as eco-friendly as possible Reusable
                         incontinence pads, reusable sanitary pads, period pants, or period cups and reusable nappies
                         are not only better for the environment, but also save the families money longer term.<br />
@@ -123,6 +152,18 @@ export default function Donate() {
                         physically and mentally fit. Drugs and alcohol abuse can be avoided with mental stimulation.
                         Community centres and music groups can help those less sporty.
                     </p>
+                    <div className="grid grid-cols-2 gap-2">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/sports.jpg" alt="Image 1" className="max-w-full " />
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/sports2.JPG" alt="Image 2" className="max-w-full " />
+                            </div>
+                        </div>
+                    </div>
                     <h2>Donation Ideas</h2>
                     <li>Football kits</li>
                     <li>Football boots</li>

@@ -40,11 +40,20 @@ export default function GetInvolved() {
                     <h2>Make a monetary donation</h2>
                     <DonateButton />
                 </div>
-                <div style={{ width: '100%' }}>
-                    <Image className='w-full  py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
-                </div>
                 <div className='border border-gray-400 shadow-md py-4 my-3'>
                     <h2 className='px-4'>Eat out or visit a bar or shop</h2>
+                    <div className="grid grid-cols-2 gap-2">
+                    <div className="flex justify-center">
+                        <div className="image-container">
+                            <img src="/images/localbusiness.jpeg" alt="Image 1" className="max-w-full " />
+                        </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="image-container">
+                            <img src="/images/localbusiness2.jpeg" alt="Image 2" className="max-w-full " />
+                        </div>
+                    </div>
+                </div>
                     <p className='text-black  text-xl py-3 text-left px-4'>
                         Many tourists stay in the hotels and do not see the poverty outside
                         of the hotels.<br /> Pop into town and support the local businesses there.<br /> Cape Verde is generally a
@@ -55,10 +64,6 @@ export default function GetInvolved() {
                         There is always a minority in any country, but the majority listen when you say that you are not
                         interested.
                     </p>
-                </div>
-
-                <div>
-                    <Image className='w-full  py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
                 </div>
             </div>
         </div>

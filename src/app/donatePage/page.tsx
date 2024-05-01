@@ -39,7 +39,7 @@ export default function Donate() {
                     </p>
                 </div>
                 <div style={{ width: '100%' }}>
-                    <Image className='w-full  py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
+                    <Image className='w-full  py-3' src="/images/Whats App Image 2024-04-27 at 17.10_edited.jpg" alt='young child' width={500} height={500} />
                 </div>
                 <div className='border border-gray-400 shadow-md py-4 my-3'>
                     <h1 className='px-4'>Donations</h1>

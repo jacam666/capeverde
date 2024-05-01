@@ -57,6 +57,26 @@ export default function Gallery() {
                             <img src="/images/download_schooledited.jpg" alt="Image 10" className="max-w-full " />
                         </div>
                     </div>
+                    <div className="flex justify-center">
+                        <div className="image-container">
+                            <img src="/images/localbusiness2.jpeg" alt="Image 11" className="max-w-full " />
+                        </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="image-container">
+                            <img src="/images/shanty.jpg" alt="Image 12" className="max-w-full " />
+                        </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="image-container">
+                            <img src="/images/localbusiness.jpeg" alt="Image 13" className="max-w-full " />
+                        </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="image-container">
+                            <img src="/images/sports.jpg" alt="Image 14" className="max-w-full " />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

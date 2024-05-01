@@ -27,7 +27,7 @@ export default function WhoWeAre() {
                     </p>
                 </div>
                 <div style={{ width: '100%' }}>
-                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
+                    <Image className='w-full px-3 py-3' src="/images/volunteer.jpg" alt='young child' width={500} height={500} />
                 </div>
                 <h1 className='text-center text-black text-5xl'>Our mission:</h1>
                 <div className='text-left text-black px-4 text-xl border border-gray-400  shadow-md py-2 mx-3'>
@@ -46,7 +46,7 @@ export default function WhoWeAre() {
                     </li>
                 </div>
                 <div>
-                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
+                    <Image className='w-full px-3 py-3' src="/images/Whats App Image 2024-04-27 at 17.10_edited.jpg" alt='young child' width={500} height={500} />
                 </div>
                 <DonateButton />
             </div>

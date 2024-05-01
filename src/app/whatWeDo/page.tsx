@@ -15,7 +15,7 @@ export default function WhatWeDo() {
             {/* <div className=' bg-gradient-to-r from-blue-100 to-slate-600'> */}
             <div className=' bg-white'>
                 <h1 className='text-center text-5xl py-3 text-black'>What we do</h1>
-                <div className='border border-gray-400  shadow-md py-2 mx-3' style={{  margin: 'auto' }}>
+                <div className='border border-gray-400  shadow-md py-2 mx-3'>
                     <p className='px-4 text-black text-xl '>
                         My Cape Verde aims to help as many families as possible living in poverty.<br />
                         We provide food parcels, funded by monetary donations and fund raising.<br /> We provide clothing ,
@@ -29,7 +29,7 @@ export default function WhatWeDo() {
                 <div style={{ width: '100%' }}>
                     <Image className='w-full px-3 py-3' src="/images/OIP (1).jpeg" alt='young child' width={500} height={500} />
                 </div>
-                <div className='border border-gray-400  shadow-sm py-2 mx-3' style={{ margin: 'auto'}}>
+                <div className='border border-gray-400  shadow-sm py-2 mx-3'>
                     <p className='text-black px-4 text-xl py-3'>
                         We provide a Christmas gift bag to as many children as possible at Christmas. Most of these
                         children would not be getting a gift otherwise.<br /> The bags contain a toy, toothpaste, toothbrush

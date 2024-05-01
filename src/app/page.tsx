@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className=' bg-gradient-to-r from-blue-200 to-slate-600' style={{ minHeight: '100vh' }}>
+    <div className=' bg-white' style={{ minHeight: '100vh' }}>
       <ResponsiveNavbar/>
       <div style={{ width: '100%' }}>
         <Image className="w-full px-3 py-3" src="/images/WhatsApp Image 2024-04-27 at 17.10.27_0fadff63.jpg" alt="verde" width={1200}  height={100} style={{height: 'auto'}} />

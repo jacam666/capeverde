@@ -12,9 +12,10 @@ export default function WhatWeDo() {
     return (
         <div style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className=' bg-gradient-to-r from-blue-100 to-slate-600'>
+            {/* <div className=' bg-gradient-to-r from-blue-100 to-slate-600'> */}
+            <div className=' bg-white'>
                 <h1 className='text-center text-5xl py-3 text-black'>What we do</h1>
-                <p className='px-5 text-black text-2xl'>
+                <p className='px-4 text-black text-xl'>
                     My Cape Verde aims to help as many families as possible living in poverty.<br />
                     We provide food parcels, funded by monetary donations and fund raising.<br /> We provide clothing ,
                     shoes and toiletries to families donated by tourists and our friends and families.<br />
@@ -25,14 +26,15 @@ export default function WhatWeDo() {
                 <div style={{ width: '100%' }}>
                     <Image className='w-full px-3 py-3' src="/images/OIP (1).jpeg" alt='young child' width={500} height={500} />
                 </div>
-                <p className='text-black px-5 text-2xl py-3'>
-                    We provide a Christmas gift bag to as many children as possible at Christmas. Most of these
-                    children would not be getting a gift otherwise.<br/> The bags contain a toy, toothpaste, toothbrush
-                    and an item of clothing.<br/>
-                    We hold activity events including various sports, games and discos.<br/>
-                    We work with other associations and groups on the islands to improve the lives of Cape
-                    Verdeans.                </p>
-                <div>
+                    <p className='text-black px-4 text-xl py-3'>
+                        We provide a Christmas gift bag to as many children as possible at Christmas. Most of these
+                        children would not be getting a gift otherwise.<br /> The bags contain a toy, toothpaste, toothbrush
+                        and an item of clothing.<br />
+                        We hold activity events including various sports, games and discos.<br />
+                        We work with other associations and groups on the islands to improve the lives of Cape
+                        Verdeans.                </p>
+                    <div>
+
                     <Image className='w-full px-3 py-3' src="/images/south-africa-fivepointsix-shutterstock.jpg" alt='young child' width={500} height={500} />
                 </div>
                 <DonateButton />

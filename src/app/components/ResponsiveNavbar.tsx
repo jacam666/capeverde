@@ -19,7 +19,8 @@ export default function ResponsiveNavbar() {
     const [openNavSecond, setOpenNavSecond] = useState(false);
 
     return (
-        <MDBNavbar className=' bg-gradient-to-r from-blue-200 to-slate-600 text-black' expand='lg' light bgColor='light'>
+        // <MDBNavbar className='bg-gradient-to-r from-blue-200 to-slate-600 text-black' expand='lg' light bgColor='light'>
+        <MDBNavbar className='bg-gradient-to-r from-blue-50 to-slate-100 text-black' expand='lg' light bgColor='light'>
             <MDBContainer fluid className=''>
                 <MDBNavbarLink href='/' style={{ fontSize: '1.5rem' }}>My Cape Verde</MDBNavbarLink>
                 <MDBNavbarToggler

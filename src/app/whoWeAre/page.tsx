@@ -12,9 +12,9 @@ export default function WhoWeAre() {
     return (
         <div style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className=' bg-gradient-to-r from-blue-100 to-slate-600'>
+            <div className=' bg-white'>
                 <h1 className='text-center text-5xl py-3 text-black'>Who we are</h1>
-                <p className='px-5 text-black text-2xl'>
+                <p className='px-3 text-black text-xl'>
                     The lack of tourism caused by the Covid pandemic, hit the Cape Verde islands hard. Locals
                     already stretched to the limit were left with little or no income and many with very little food.
                     Our trustee Lisa and two friends started helping the locals and in February 2022 formed the
@@ -29,7 +29,7 @@ export default function WhoWeAre() {
                     <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
                 </div>
                 <h1 className='text-center text-black text-5xl'>Our mission:</h1>
-                <div className='text-left text-black px-5 text-2xl'>
+                <div className='text-left text-black px-3 text-xl'>
                     <li>To provide the locals in need with food parcels  </li>
                     <li>To provide clothing – the majority are provided by donations </li>
                     <li>To provide toiletries – many adults and children do not own a toothbrush </li>

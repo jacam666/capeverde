@@ -5,7 +5,7 @@ export default function ContactUs() {
     return (
         <div style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 bg-gradient-to-r from-blue-200 to-slate-600">
+            <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 ">
                 <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
                 </div>
                 <div className="mx-auto max-w-2xl text-center">
@@ -75,7 +75,7 @@ export default function ContactUs() {
                         </div>
                     </div>
                     <div className="mt-10">
-                        <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">talk to us</button>
+                        <button type="submit" className="block w-full rounded-md bg-gradient-to-r from-blue-50 to-slate-100 px-3.5 py-2.5 text-center text-lg font-semibold text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">talk to us</button>
                     </div>
                 </form>
             </div>

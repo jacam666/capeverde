@@ -4,13 +4,13 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function Footer() {
     return (
-        <MDBFooter className='text-center text-lg-start text-muted text-black bg-gradient-to-r from-blue-200 to-slate-600'>
+        <MDBFooter className='text-center text-lg-start text-muted text-black bg-gradient-to-r from-blue-50 to-slate-100'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 '>
                 <div className='me-5 d-none d-lg-block'>
                     <span className='text-black'>Get connected with us on social networks:</span>
                 </div>
 
-                <div className='text-white'>
+                <div className='text-black'>
                     <a href='' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
                     </a>

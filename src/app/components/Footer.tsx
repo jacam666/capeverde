@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function Footer() {
     return (
-        <MDBFooter className='text-center text-lg-start text-muted text-black bg-gradient-to-r from-blue-50 to-slate-100'>
+        <MDBFooter className='text-center text-lg-start text-muted text-black bg-gradient-to-r from-blue-10 to-slate-40'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 '>
                 <div className='me-5 d-none d-lg-block'>
                     <span className='text-black'>Get connected with us on social networks:</span>
@@ -84,7 +84,7 @@ export default function Footer() {
                 </MDBContainer>
             </section>
 
-            <div className='text-center p-4 text-black' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+            <div className='text-center p-4 text-black' style={{ backgroundColor: 'rgba(0, 0, 0, 0.01)' }}>
                 © 2024 Copyright:
                 <a className='text-reset fw-bold' href='#'>
                     camdesigns.com

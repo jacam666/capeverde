@@ -20,7 +20,7 @@ export default function ResponsiveNavbar() {
 
     return (
         // <MDBNavbar className='bg-gradient-to-r from-blue-200 to-slate-600 text-black' expand='lg' light bgColor='light'>
-        <MDBNavbar className='bg-gradient-to-r from-blue-50 to-slate-100 text-black' expand='lg' light bgColor='light'>
+        <MDBNavbar className='bg-gradient-to-r from-blue-10 to-slate-40 text-black' expand='lg' light bgColor='light'>
             <MDBContainer fluid className=''>
                 <MDBNavbarLink href='/' style={{ fontSize: '1.5rem' }}>My Cape Verde</MDBNavbarLink>
                 <MDBNavbarToggler
@@ -39,6 +39,7 @@ export default function ResponsiveNavbar() {
                         <MDBNavbarLink className='text-black ' href='./whoWeAre'>Who we are</MDBNavbarLink>
                         <MDBNavbarLink className='text-black ' href='./getInvolved'>Get involved</MDBNavbarLink>
                         <MDBNavbarLink className='text-black ' href='./contactUs'>Contact Us</MDBNavbarLink>
+                        <MDBNavbarLink className='text-black ' href='./donatePage'>Donate</MDBNavbarLink>
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBContainer>

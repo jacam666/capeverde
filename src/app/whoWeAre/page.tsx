@@ -18,11 +18,10 @@ export default function WhoWeAre() {
                     <p className='px-4 text-black text-xl'>
                         The lack of tourism caused by the Covid pandemic, hit the Cape Verde islands hard. Locals
                         already stretched to the limit were left with little or no income and many with very little food.
-                        Our trustee Lisa and two friends started helping the locals and in February 2022 formed the
-                        charity Cape Verde in Need. < br />
+                        Our trustee Lisa started helping by shipping donated clothes to our Chairman Ivanilson to distribute. In February 2022, Lisa joined 3 other friends helping Cape Verdians, and the charity Cape Verde in Need was formed < br />
                         Over the course of 4 years, the charity helped thousands of locals,
                         providing food, clothing, toiletries and activities. When the charity ended in May 2024, Lisa and
-                        Ivanilson (one of their main volunteers) decided to continue to aid people.<br /> So many Cape
+                        Ivanilson decided to continue to aid people.<br /> So many Cape
                         Verdeans are still living in extreme poverty and deprivation and My Cape Verde is continuing to
                         improve people’s lives.
                     </p>

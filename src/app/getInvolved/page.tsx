@@ -12,21 +12,44 @@ export default function GetInvolved() {
     return (
         <div style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className=' bg-gradient-to-r from-blue-100 to-slate-600'>
+            <div className=' bg-gradient-to-r from-blue-100 to-slate-500 text-black px-4 text-center'>
                 <h1 className='text-center text-5xl py-3 text-black'>Get Involved</h1>
-                <p className='px-5 text-black text-xl'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non quaerat corporis, voluptatibus illum optio, explicabo alias quis harum asperiores neque, eius beatae. Architecto aliquam amet aliquid neque iure quam quidem.
+                <h2>There are a few ways that you can help the locals: </h2>
+                <p className='px-4 text-black text-2xl text-left mt-5 mb-5'>
+                    Donate items of clothing, toiletries or medical aids. If you are travelling to Cape Verde, please
+                    consider bringing a suitcase of donations with you or a suitcase specifically for a family. We can
+                    apply for extra luggage allowance, so it need not affect your own allowance.
                 </p>
-                <div style={{ width: '100%' }}>
-                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500}/>
+                <p className='px-4 text-black text-2xl text-left mb-5'>If you are travelling to Cape Verde from the UK, but cannot donate yourself, we can send you a
+                    bag of donations to repack and transport for us. We can apply for extra luggage allowance to
+                    cater for this. </p>
+                <div>
+                    <h2>Fundraise:</h2>
+                    <p className='px-4 text-black text-2xl text-left mb-5'>We rely totally on donations for funding. All our staff are volunteers, so all money
+                        raised will go directly to the charity. Hold a cake sale, ask your school to have a non-uniform
+                        day, do a sponsored walk, jump out of a plane or start a crowdfunder page? </p>
                 </div>
-                <p className='text-black px-5 text-xl py-3'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, similique fugit eveniet corrupti magni quam amet aperiam! Saepe ipsa nesciunt debitis? Nemo eveniet fuga debitis et. Odio quas laborum aliquid?
+                <div>
+                    <h2>Make a monetary donation</h2>
+                    <DonateButton />
+                </div>
+                <div style={{ width: '100%' }}>
+                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
+                </div>
+                <h2>Eat out or visit a bar or shop</h2>
+                <p className='text-black px-4 text-2xl py-3 text-left'>
+                    Many tourists stay in the hotels and do not see the poverty outside
+                    of the hotels.<br /> Pop into town and support the local businesses there.<br /> Cape Verde is generally a
+                    very safe country but tourism does lure people from other African countries and many of the
+                    street sellers are not Cape Verdean.<br /> As in any country, keep your personal items close to you. If
+                    you do not want to be bothered by the street sellers turn your hotel bracelet inside out, (as they
+                    can pretend they are from your hotel), or just tell them that you have been to their shop before.
+                    There is always a minority in any country, but the majority listen when you say that you are not
+                    interested.
                 </p>
                 <div>
-                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500}/>
+                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image 2024-04-27 at 17.10.27_34eda20e.jpg" alt='young child' width={500} height={500} />
                 </div>
-                <DonateButton/>
             </div>
         </div>
 

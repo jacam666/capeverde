@@ -1,5 +1,9 @@
+import ResponsiveNavbar from "../components/ResponsiveNavbar";
+
 export default function Gallery () {
     return (
+        <div>
+            <ResponsiveNavbar />
         <div className="p-8 bg-white">
             <h1 className="text-2xl font-bold text-black mb-4 text-center">Gallery</h1>
             <div className="grid grid-cols-2 gap-4">
@@ -53,6 +57,7 @@ export default function Gallery () {
                 </div>
             
             </div>
+        </div>
         </div>
     );
 }

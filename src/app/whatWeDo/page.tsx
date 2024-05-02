@@ -16,7 +16,7 @@ export default function WhatWeDo() {
             <div className=' bg-white'>
                 <h1 className='text-center text-5xl py-3 text-black'>What we do</h1>
                 <div className='border border-gray-400  shadow-md py-2 mx-3'>
-                    <p className='px-2 py-3 text-black text-xl '>
+                    <p className='px-3 py-2 text-black text-xl '>
                         My Cape Verde aims to help as many families as possible living in poverty.<br />
                         We provide food parcels, funded by monetary donations and fund raising.<br /> We provide clothing ,
                         shoes and toiletries to families donated by tourists and our friends and families.<br />
@@ -33,52 +33,73 @@ export default function WhatWeDo() {
                             </div>
                         </div>
                     </div>
-                    <p className='px-2 py-2 text-black text-xl'>
+                    <p className='px-3 py-2 text-black text-xl'>
                         We provide medical aids to people who cannot afford them and who are not assisted by the
                         health service of Cape Verde. <br />We provide wheelchairs and walking aids to locals with physical
                         disabilities.<br />
-                        <div className="grid grid-cols-2 gap-2 pt-3">
-                            <div className="flex justify-center">
-                                <div className="image-container">
-                                    <img src="/images/WhatsApp Image wheelchair1.jpg" alt="Image 1" />
-                                </div>
-                            </div>
-                            <div className="flex justify-center">
-                                <div className="image-container">
-                                    <img src="/images/WhatsApp Image wheelchair2.jpg" alt="Image 2" />
-                                </div>
+                    </p>
+                    <div className="grid grid-cols-2 gap-2 pt-3">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image wheelchair1.jpg" alt="Image 1" />
                             </div>
                         </div>
-                    </p>
-                    <p className='px-2 text-black text-xl'>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image wheelchair2.jpg" alt="Image 2" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <p className='px-2 pt-4 text-black text-xl'>
                         We provide schools and children with stationery and school supplies.
-                        <div className="grid grid-cols-2 gap-2 pt-3">
-                            <div className="flex justify-center">
-                                <div className="image-container">
-                                    <img src="/images/WhatsApp Image school1.jpg" alt="Image 1" />
-                                </div>
-                            </div>
-                            <div className="flex justify-center">
-                                <div className="image-container">
-                                    <img src="/images/WhatsApp Image school2.jpg" alt="Image 2" />
-                                </div>
+                    </p>
+                    <div className="grid grid-cols-2 gap-2 pt-3">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image school1.jpg" alt="Image 1" />
                             </div>
                         </div>
-                    </p>
-                </div>
-                <div className='border border-gray-400  shadow-sm py-2 mx-3'>
-                    <p className='text-black px-4 text-xl py-3'>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image school2.jpg" alt="Image 2" />
+                            </div>
+                        </div>
+                    </div>
+                    <p className='text-black px-3 text-xl pt-3'>
                         We provide a Christmas gift bag to as many children as possible at Christmas. Most of these
                         children would not be getting a gift otherwise.<br /> The bags contain a toy, toothpaste, toothbrush
                         and an item of clothing.<br />
+                    </p>
+                    <div className="grid grid-cols-2 gap-2 pt-3">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image toys.jpg" alt="Image 1" />
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image toys2.jpg" alt="Image 2" />
+                            </div>
+                        </div>
+                    </div>
+                    <p className='text-black px-3 text-xl pt-3'>
                         We hold activity events including various sports, games and discos.<br />
                         We work with other associations and groups on the islands to improve the lives of Cape
                         Verdeans.
                     </p>
-                </div>
-                <div>
-
-                    <Image className='w-full px-3 py-3' src="/images/csm_Poverty_cap-vert1_3791a72817.jpg" alt='young child' width={500} height={500} />
+                    <div className="grid grid-cols-2 gap-2 pt-3">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image event2.jpg" alt="Image 1" />
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image event3.jpg" alt="Image 2" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <DonateButton />
             </div>

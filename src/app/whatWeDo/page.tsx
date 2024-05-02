@@ -33,7 +33,7 @@ export default function WhatWeDo() {
                             </div>
                         </div>
                     </div>
-                    <p className='px-3 py-2 text-black text-xl'>
+                    <p className='px-3 pt-4 text-black text-xl'>
                         We provide medical aids to people who cannot afford them and who are not assisted by the
                         health service of Cape Verde. <br />We provide wheelchairs and walking aids to locals with physical
                         disabilities.<br />

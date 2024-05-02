@@ -16,11 +16,18 @@ export default function GetInvolved() {
                 <h1 className='text-center text-5xl py-3 text-black'>Get Involved</h1>
                 <h2>There are a few ways that you can help the locals: </h2>
                 <div className='border border-gray-400 shadow-md py-2  my-3'>
-                    <p className=' px-4 text-black text-xl text-left'>
+                    <div className=' px-4 text-black text-xl text-left'>
                         Donate items of clothing, toiletries or medical aids. If you are travelling to Cape Verde, please
                         consider bringing a suitcase of donations with you or a suitcase specifically for a family. We can
                         apply for extra luggage allowance, so it need not affect your own allowance.
-                    </p>
+                        <div className="">
+                            <div className="flex justify-center">
+                                <div className="image-container py-2">
+                                    <img src="/images/WhatsApp Image donations2.jpg" alt="Image 1" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
                     <p className=' text-black text-xl text-left px-4'>If you are travelling to Cape Verde from the UK, but cannot donate yourself, we can send you a
@@ -34,7 +41,13 @@ export default function GetInvolved() {
                     <p className=' text-black text-xl text-left  px-4'>We rely totally on donations for funding. All our staff are volunteers, so all money
                         raised will go directly to the charity. Hold a cake sale, ask your school to have a non-uniform
                         day, do a sponsored walk, jump out of a plane or start a crowdfunder page?
+                        <div className="flex justify-center">
+                                <div className="image-container py-2">
+                                    <img src="/images/WhatsApp Image fundraise.jpg" alt="Image 1" />
+                                </div>
+                            </div>
                     </p>
+                    
                 </div>
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
                     <h2>Make a monetary donation</h2>
@@ -43,17 +56,17 @@ export default function GetInvolved() {
                 <div className='border border-gray-400 shadow-md py-4 my-3'>
                     <h2 className='px-4'>Eat out or visit a bar or shop</h2>
                     <div className="grid grid-cols-2 gap-2">
-                    <div className="flex justify-center">
-                        <div className="image-container">
-                            <img src="/images/localbusiness.jpeg" alt="Image 1" className="max-w-full " />
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/localbusiness.jpeg" alt="Image 1" className="max-w-full " />
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/localbusiness2.jpeg" alt="Image 2" className="max-w-full " />
+                            </div>
                         </div>
                     </div>
-                    <div className="flex justify-center">
-                        <div className="image-container">
-                            <img src="/images/localbusiness2.jpeg" alt="Image 2" className="max-w-full " />
-                        </div>
-                    </div>
-                </div>
                     <p className='text-black  text-xl py-3 text-left px-4'>
                         Many tourists stay in the hotels and do not see the poverty outside
                         of the hotels.<br /> Pop into town and support the local businesses there.<br /> Cape Verde is generally a

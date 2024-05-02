@@ -36,18 +36,17 @@ export default function GetInvolved() {
                     </p>
                 </div>
 
-                <div className='border border-gray-400 shadow-md py-2 my-3'>
+                <div className='border border-gray-400 shadow-md py-3 my-3'>
                     <h2>Fundraise:</h2>
-                    <p className=' text-black text-xl text-left  px-4'>We rely totally on donations for funding. All our staff are volunteers, so all money
+                    <div className=' text-black text-xl text-left  px-4'>We rely totally on donations for funding. All our staff are volunteers, so all money
                         raised will go directly to the charity. Hold a cake sale, ask your school to have a non-uniform
                         day, do a sponsored walk, jump out of a plane or start a crowdfunder page?
                         <div className="flex justify-center">
-                                <div className="image-container py-2">
-                                    <img src="/images/WhatsApp Image fundraise.jpg" alt="Image 1" />
-                                </div>
+                            <div className="image-container py-2">
+                                <img src="/images/WhatsApp Image fundraise.jpg" alt="Image 1" />
                             </div>
-                    </p>
-                    
+                        </div>
+                    </div>
                 </div>
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
                     <h2>Make a monetary donation</h2>
@@ -55,7 +54,16 @@ export default function GetInvolved() {
                 </div>
                 <div className='border border-gray-400 shadow-md py-4 my-3'>
                     <h2 className='px-4'>Eat out or visit a bar or shop</h2>
-                    <div className="grid grid-cols-2 gap-2">
+                    <div className='text-black  text-xl py-3 text-left px-4 '>
+                        Many tourists stay in the hotels and do not see the poverty outside
+                        of the hotels.<br /> Pop into town and support the local businesses there.<br /> Cape Verde is generally a
+                        very safe country but tourism does lure people from other African countries and many of the
+                        street sellers are not Cape Verdean.<br /> As in any country, keep your personal items close to you. If
+                        you do not want to be bothered by the street sellers turn your hotel bracelet inside out, (as they
+                        can pretend they are from your hotel), or just tell them that you have been to their shop before.
+                        There is always a minority in any country, but the majority listen when you say that you are not
+                        interested.
+                        <div className="grid grid-cols-2 gap-2 mt-3">
                         <div className="flex justify-center">
                             <div className="image-container">
                                 <img src="/images/localbusiness.jpeg" alt="Image 1" className="max-w-full " />
@@ -67,16 +75,7 @@ export default function GetInvolved() {
                             </div>
                         </div>
                     </div>
-                    <p className='text-black  text-xl py-3 text-left px-4'>
-                        Many tourists stay in the hotels and do not see the poverty outside
-                        of the hotels.<br /> Pop into town and support the local businesses there.<br /> Cape Verde is generally a
-                        very safe country but tourism does lure people from other African countries and many of the
-                        street sellers are not Cape Verdean.<br /> As in any country, keep your personal items close to you. If
-                        you do not want to be bothered by the street sellers turn your hotel bracelet inside out, (as they
-                        can pretend they are from your hotel), or just tell them that you have been to their shop before.
-                        There is always a minority in any country, but the majority listen when you say that you are not
-                        interested.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

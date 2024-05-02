@@ -15,9 +15,18 @@ export default function WhoWeAre() {
             <div className=' bg-white'>
                 <h1 className='text-center text-5xl py-3 text-black'>Who we are</h1>
                 <div className='border border-gray-400  shadow-md py-2 mx-3' style={{ margin: 'auto' }}>
-                    <p className='px-4 text-black text-xl'>
+                    <p className='px-3 text-black text-xl'>
                         The lack of tourism caused by the Covid pandemic, hit the Cape Verde islands hard. Locals
                         already stretched to the limit were left with little or no income and many with very little food.
+                        </p>
+                        <div className=" pt-2 mx-3">
+                            <div className="flex justify-center">
+                                <div className="image-container">
+                                    <img src="/images/WhatsApp Image whoweare.jpg" alt="Image 1" />
+                                </div>
+                            </div>
+                        </div>
+                        <p className='px-3 text-black text-xl mt-2'>
                         Our trustee Lisa started helping by shipping donated clothes to our Chairman Ivanilson to distribute. In February 2022, Lisa joined 3 other friends helping Cape Verdians, and the charity Cape Verde in Need was formed < br />
                         Over the course of 4 years, the charity helped thousands of locals,
                         providing food, clothing, toiletries and activities. When the charity ended in May 2024, Lisa and
@@ -27,7 +36,7 @@ export default function WhoWeAre() {
                     </p>
                 </div>
                 <div style={{ width: '100%' }}>
-                    <Image className='w-full px-3 py-3' src="/images/volunteer.jpg" alt='young child' width={500} height={500} />
+                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image shanty.jpg" alt='young child' width={500} height={500} />
                 </div>
                 <h1 className='text-center text-black text-5xl'>Our mission:</h1>
                 <div className='text-left text-black px-4 text-xl border border-gray-400  shadow-md py-2 mx-3'>

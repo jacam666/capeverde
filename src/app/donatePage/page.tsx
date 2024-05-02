@@ -26,14 +26,40 @@ export default function Donate() {
                         UK travellers) so it need not affect your own allowance. The empty suitcases are used by the
                         families for storage.
                     </p>
+                    <div className="grid grid-cols-2 gap-2 pt-3 mx-3">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image family.jpg" alt="Image 1" />
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image family2.jpg" alt="Image 2" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
                     <p className=' text-black text-xl text-left  px-4'>Bring donations or leave items behind at the end of your holiday. It can be difficult to get items
                         onto the islands and many locals cannot afford the high price tags for basic items like clothing,
                         toiletries and sanitary products. If you have a little space in your suitcase for some items, these
-                        would be greatly appreciated. If you would like to bring a whole suitcase, we can apply for extra
+                        would be greatly appreciated.
+                        </p>
+                        <div className="grid grid-cols-2 gap-2 pt-3 mx-3 mb-3">
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image donations3.jpg" alt="Image 1" />
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="image-container">
+                                <img src="/images/WhatsApp Image donation4.jpg" alt="Image 2" />
+                            </div>
+                        </div>
+                    </div>
+                        <p className='text-black text-xl text-left  px-4'> If you would like to bring a whole suitcase, we can apply for extra
                         luggage allowance (for UK travellers) so it need not affect your own allowance. Or alternatively,
-                        leave some of your clothing behind at the end of your holiday. <br/>Children’s clothing is always needed, so if your child will have outgrown their clothes or shoes by the next summer, these
+                        leave some of your clothing behind at the end of your holiday. <br />Children’s clothing is always needed, so if your child will have outgrown their clothes or shoes by the next summer, these
                         could be left behind for a family. Please only donate items in good condition as the refuse
                         system is basic on the islands.
                     </p>
@@ -63,9 +89,9 @@ export default function Donate() {
                         </div>
                     </div>
                 </div>
-                <div className='border border-gray-400 shadow-md py-4 my-3'>
+                <div className='border border-gray-400 shadow-md py-3 my-3'>
                     <h1 className='px-4'>School supplies</h1>
-                    <p className='text-black  text-xl py-3 text-left px-4'>
+                    <p className='text-black  text-xl py-1 text-left px-4'>
                         Fill a suitcase with school supplies and stationery. Schools get little governmental support.
                         Families are asked to provide their own school bag with stationery. You can bring a case with
                         school supplies that will be passed on to schools on different Cape Verdean islands. Or bring a
@@ -85,7 +111,7 @@ export default function Donate() {
                     <li>Colouring books</li>
                     <li>Crayons</li>
                     <li>Paints and brushes</li>
-                    <div className="grid grid-cols-2 gap-2">
+                    <div className="grid grid-cols-2 gap-2 mx-3 mt-2">
                         <div className="flex justify-center">
                             <div className="image-container">
                                 <img src="/images/school2.jpg" alt="Image 1" className="max-w-full " />
@@ -152,15 +178,15 @@ export default function Donate() {
                         physically and mentally fit. Drugs and alcohol abuse can be avoided with mental stimulation.
                         Community centres and music groups can help those less sporty.
                     </p>
-                    <div className="grid grid-cols-2 gap-2">
+                    <div className="grid grid-cols-2 gap-2 mx-3 mb-2">
                         <div className="flex justify-center">
                             <div className="image-container">
-                                <img src="/images/sports.jpg" alt="Image 1" className="max-w-full " />
+                                <img src="/images/WhatsApp Image sports.jpg" alt="Image 1" className="max-w-full " />
                             </div>
                         </div>
                         <div className="flex justify-center">
                             <div className="image-container">
-                                <img src="/images/sports2.JPG" alt="Image 2" className="max-w-full " />
+                                <img src="/images/WhatsApp Image sports2.jpg" alt="Image 2" className="max-w-full " />
                             </div>
                         </div>
                     </div>

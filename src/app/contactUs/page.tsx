@@ -5,7 +5,7 @@ export default function ContactUs() {
     return (
         <div style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 ">
+            <div className="isolate px-6 py-24 sm:py-32 lg:px-8 " style={{ backgroundColor: '#eef2ff'}}>
                 <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
                 </div>
                 <div className="mx-auto max-w-2xl text-center">

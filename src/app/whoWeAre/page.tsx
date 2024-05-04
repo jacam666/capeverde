@@ -12,7 +12,7 @@ export default function WhoWeAre() {
     return (
         <div style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className=' bg-white'>
+            <div style={{ backgroundColor: '#f0f9ff'}}>
                 <h1 className='text-center text-5xl py-3 text-black'>Who we are</h1>
                 <div className='border border-gray-400  shadow-md py-2 mx-3' style={{ margin: 'auto' }}>
                     <p className='px-3 text-black text-xl'>

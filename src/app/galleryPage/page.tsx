@@ -4,7 +4,7 @@ export default function Gallery() {
     return (
         <div>
             <ResponsiveNavbar />
-            <div className="p-9 bg-black">
+            <div className="p-9 " style={{ backgroundColor: '#cbd5e1'}}>
                 <h1 className="text-2xl font-bold text-white mb-4 text-center">Gallery</h1>
                 <div className="grid grid-cols-2 gap-2">
                     <div className="flex justify-center">

@@ -9,9 +9,9 @@ export const metadata = {
 
 export default function WhatWeDo() {
     return (
-        <div style={{ minHeight: '100vh' }}>
+        <div style={{ minHeight: '100vh', backgroundColor: '#fef2f2' }}>
             <ResponsiveNavbar />
-            <div className=' bg-white'>
+            <div className=' bg-##fee2e2'>
                 <h1 className='text-center text-5xl py-3 text-black'>What we do</h1>
                 <div className='border border-gray-400  shadow-md py-3 mx-3 mb-3'>
                     <div className='px-3  text-black text-xl  '>
@@ -83,7 +83,7 @@ export default function WhatWeDo() {
                             </div>
                             <div className="flex justify-center">
                                 <div className="image-container">
-                                    <img src="/images/WhatsApp Image toys2.jpg" alt="Image 2" />
+                                    <img src="/images/xmasgifts1.jpg" alt="Image 2" />
                                 </div>
                             </div>
                         </div>

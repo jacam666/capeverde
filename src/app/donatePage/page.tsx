@@ -11,7 +11,7 @@ export default function Donate() {
     return (
         <div style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className=' bg-white text-black px-3 text-center'>
+            <div className=' text-black px-3 text-center' style={{ backgroundColor: '#fff7ed'}}>
                 <h1 className='text-center text-5xl py-3 text-black'>There are several ways to donate:</h1>
                 <div className='border border-gray-400 shadow-md py-2  my-3'>
                     <h2>Make a monetary donation</h2>

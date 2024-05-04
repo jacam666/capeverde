@@ -4,9 +4,9 @@ export default function Gallery() {
     return (
         <div>
             <ResponsiveNavbar />
-            <div className="p-9 bg-white">
-                <h1 className="text-2xl font-bold text-black mb-4 text-center">Gallery</h1>
-                <div className="grid grid-cols-2 gap-4">
+            <div className="p-9 bg-black">
+                <h1 className="text-2xl font-bold text-white mb-4 text-center">Gallery</h1>
+                <div className="grid grid-cols-2 gap-2">
                     <div className="flex justify-center">
                         <div className="image-container">
                             <img src="/images/OIP (2)_edited.jpg" alt="Image 1" className="max-w-full " />

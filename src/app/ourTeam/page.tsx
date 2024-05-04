@@ -42,7 +42,7 @@ export default function Team() {
                                     className="w-full object-cover opacity-100"
                                     src={item.img}
                                 />
-                                <div className="text-center text-black text-3xl mt-3">{item.title}</div>
+                                <div className="text-center text-black text-3xl mt-3 ">{item.title}</div>
                             </div>
                         </CardBody>
                         {/* <CardFooter className="text-small justify-between">

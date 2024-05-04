@@ -9,35 +9,31 @@ export const metadata = {
 export default function Team() {
     const list = [
         {
-            title: "Name",
+            title: "Ivanilson",
             img: "/images/team1.jpg",
         },
         {
-            title: "Name",
+            title: "Lisa",
             img: "/images/team2.jpg",
         },
         {
-            title: "Name",
+            title: "Rachael",
             img: "/images/team3.jpg",
         },
         {
-            title: "Name",
-            img: "/images/team4.jpg",
-        },
-        {
             img: "/images/team5.jpg",
-            title: "Name"
+            title: "Paul"
         },
     ];
 
     return (
-        <div className="bg-black">
+        <div className="bg-white">
             <ResponsiveNavbar />
-            <h1 className="text-white text-center mt-3">Meet Our Team</h1>
+            <h1 className="text-black text-center mt-3">Meet Our Team</h1>
             <div className="gap-2 grid  sm:grid-cols-2 grid-cols-1 ">
                 {list.map((item, index) => (
                     <Card key={index}>
-                        <CardBody className="h-auto overflow-visible p-0">
+                        <CardBody className="h-auto overflow-visible p-0 m-2">
                             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                                 <Image
                                     radius="lg"
@@ -46,7 +42,7 @@ export default function Team() {
                                     className="w-full object-cover opacity-100"
                                     src={item.img}
                                 />
-                                <div className="text-center text-white">{item.title}</div>
+                                <div className="text-center text-black text-3xl mt-3">{item.title}</div>
                             </div>
                         </CardBody>
                         {/* <CardFooter className="text-small justify-between">

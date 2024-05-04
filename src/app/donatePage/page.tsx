@@ -174,7 +174,7 @@ export default function Donate() {
                     <p className='text-black  text-xl py-3 text-left px-4'>
                         Support a sports club/team or community centre. Many children play sports, but families
                         cannot usually afford the correct footwear. The majority of houses are small and children are
-                        send outside to play. Footballs, basketballs, skipping ropes etc can help keep children
+                        sent outside to play. Footballs, basketballs, skipping ropes etc can help keep children
                         physically and mentally fit. Drugs and alcohol abuse can be avoided with mental stimulation.
                         Community centres and music groups can help those less sporty.
                     </p>

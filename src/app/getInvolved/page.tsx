@@ -27,7 +27,7 @@ export default function GetInvolved() {
                             </div>
                             <div className="flex justify-center">
                                 <div className="image-container py-2">
-                                    <img src="/images/tui (3).jpeg" alt="Image 1" />
+                                    <img src="/images/getinvolved1.jpg" alt="Image 1" />
                                 </div>
                             </div>
                         </div>
@@ -77,12 +77,12 @@ export default function GetInvolved() {
                         <div className="grid grid-cols-2 gap-2 mt-3">
                             <div className="flex justify-center">
                                 <div className="image-container">
-                                    <img src="/images/localbusiness.jpeg" alt="Image 1" className="max-w-full " />
+                                    <img src="/images/localbusiness1.jpg" alt="Image 1" className="max-w-full " />
                                 </div>
                             </div>
                             <div className="flex justify-center">
                                 <div className="image-container">
-                                    <img src="/images/localbusiness2.jpeg" alt="Image 2" className="max-w-full " />
+                                    <img src="/images/localbusiness2.jpg" alt="Image 2" className="max-w-full " />
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ export default function GetInvolved() {
                         </div>
                         <div className="flex justify-center">
                             <div className="image-container">
-                                <img src="/images/WhatsApp Image family2.jpg" alt="Image 2" />
+                                <img src="/images/donatefamily.jpg" alt="Image 2" />
                             </div>
                         </div>
                     </div>
@@ -137,10 +137,11 @@ export default function GetInvolved() {
                 <div className='border border-gray-400 shadow-md py-4 my-3'>
                     <h1 className='px-4'>Donations</h1>
                     <h2>Clothing and Linen</h2>
-                    <p className='text-black  text-xl py-3 text-center px-4'>
+                    <p className='text-black  text-xl  text-center px-4'>
                         All clothing is appreciated but please bear in mind that temperatures very rarely fall below 20
                         degrees. (Winter coats are not needed and take up valuable suitcase weight allowance).
                     </p>
+                    <li>Clothing.</li>
                     <li>Shoes.</li>
                     <li>Sandals.</li>
                     <li>Trainers (Sneakers).</li>
@@ -149,7 +150,7 @@ export default function GetInvolved() {
                     <div className="grid grid-cols-2 gap-2 mt-3">
                         <div className="flex justify-center">
                             <div className="image-container">
-                                <img src="/images/clpthing-donations1.jpg" alt="Image 1" className="max-w-full " />
+                                <img src="/images/donateclothing.jpg" alt="Image 1" className="max-w-full " />
                             </div>
                         </div>
                         <div className="flex justify-center">
@@ -164,7 +165,7 @@ export default function GetInvolved() {
                     <p className='text-black  text-xl py-1 text-center px-4'>
                         Fill a suitcase with school supplies and stationery. Schools get little governmental support.
                         Families are asked to provide their own school bag with stationery. You can bring a case with
-                        school supplies that will be passed on to schools on different Cape Verdean islands. Or bring a
+                        school supplies that will be passed on to schools on various Cape Verdean islands. Or bring a
                         school bag filled with stationery for a child.
                     </p>
                     <h2 className='text-center'>Donation Ideas</h2>
@@ -222,7 +223,7 @@ export default function GetInvolved() {
                     </p>
                     <div>
                         <p className='text-black  text-xl py-2 text-center px-4'>Medical aids are expensive in Cape Verde. Wheelchairs and walking frames are in short supply if
-                            you are able to donate one that is no longer needed. Unwanted spectacles/reading glasses can
+                            you are able to donate one that is no longer needed. Unwanted spectacles/reading glasses will
                             be donated to health centres.
                             The shanty towns can be very dusty and dirty. Travel cots are beneficial for keeping babies and
                             toddlers in a cleaner environment

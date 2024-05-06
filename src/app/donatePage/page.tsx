@@ -25,7 +25,7 @@ export default function Donate() {
                             </div>
                         </div>
                         <div className='flex items-center'>
-                            Thanks to TUI UK, OSPA can apply to TUI for up to 20kg of free charitable luggage per booking, for travellers from the UK. This enables visitors to bring over much needed donations and supplies for charitable usage.                        </div>
+                            Thanks to TUI UK, My Cape Verde can apply to TUI for up to 20kg of free charitable luggage per booking, for travellers from the UK. This enables visitors to bring over much needed donations and supplies for charitable usage.                        </div>
                         <div className="flex justify-center">
                             <div>
                                 <img className='' src="/images/tui-luggage-barcode.jpg" alt="Image 2" />

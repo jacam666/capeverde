@@ -16,7 +16,7 @@ export default function WhatWeDo() {
                 <div className='border border-gray-400  shadow-md py-3 mx-3 mb-3'>
                     <div className='px-3  text-black text-xl text-center'>
                         <p>My Cape Verde aims to help as many families as possible living in poverty.<br />
-                            We provide food parcels, funded by monetary donations and fund raising.<br /> We provide clothing ,
+                            We provide food parcels, funded by monetary donations and fundraising.<br /> We provide clothing ,
                             shoes and toiletries to families donated by tourists and our friends and families.<br />
                         </p>
                         <div className="grid grid-cols-2 gap-2 ">
@@ -36,8 +36,8 @@ export default function WhatWeDo() {
                 <div className='border border-gray-400  shadow-md py-2 mx-3 mb-3'>
                     <div className='px-3 pt-2 text-black text-xl text-center'>
                         We provide medical aids to people who cannot afford them and who are not assisted by the
-                        health service of Cape Verde. <br />We provide wheelchairs and walking aids to locals with physical
-                        disabilities.<br />
+                        health service of Cape Verde.We provide wheelchairs and walking aids to locals with physical
+                        disabilities.
                         <div className="grid grid-cols-2 gap-2 pt-3">
                             <div className="flex justify-center">
                                 <div className="image-container">
@@ -72,8 +72,8 @@ export default function WhatWeDo() {
                 <div className='border border-gray-400  shadow-md py-2 mx-3 mb-3'>
                     <div className='text-black px-3 text-xl pt-2 text-center'>
                         <p>We provide a Christmas gift bag to as many children as possible at Christmas. Most of these
-                            children would not be getting a gift otherwise.<br /> The bags contain a toy, toothpaste, toothbrush
-                            and an item of clothing.<br />
+                            children would not be getting a gift otherwise.The bags contain a toy, toothpaste, toothbrush
+                            and an item of clothing.
                         </p>
                         <div className="grid grid-cols-2 gap-2 pt-3">
                             <div className="flex justify-center">

@@ -45,7 +45,7 @@ export default function WhoWeAre() {
                     </p>
                 </div>
                 <div style={{ width: '100%' }}>
-                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image shanty.jpg" alt='young child' width={500} height={500} />
+                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image whoweare.jpg" alt='young child' width={500} height={500} />
                 </div>
                 <h1 className='text-center text-black text-5xl'>Our mission:</h1>
                 <div className='text-left text-black px-4 text-xl border border-gray-400  shadow-md py-2 mx-3'>

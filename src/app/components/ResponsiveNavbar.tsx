@@ -31,6 +31,7 @@ export default function ResponsiveNavbar() {
                     <MDBIcon icon='bars' fas />
                 </MDBNavbarToggler>
                 <MDBCollapse navbar open={openNavSecond}>
+                    <div className='ms-auto'>
                     <MDBNavbarNav>
                         <MDBNavbarLink active aria-current='page' href='/'>
                             Home
@@ -43,6 +44,7 @@ export default function ResponsiveNavbar() {
                         <MDBNavbarLink className='text-black ' href='./galleryPage'>Gallery</MDBNavbarLink>
                         <MDBNavbarLink className='text-black ' href='./ourTeam'>Our Team</MDBNavbarLink>
                     </MDBNavbarNav>
+                    </div>
                 </MDBCollapse>
             </MDBContainer>
         </MDBNavbar>

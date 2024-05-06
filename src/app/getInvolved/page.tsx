@@ -1,6 +1,5 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ResponsiveNavbar from "../components/ResponsiveNavbar"
-import Image from 'next/image'
 import DonateButton from '../components/DonateButton';
 
 
@@ -16,7 +15,7 @@ export default function GetInvolved() {
                 <h1 className='text-center text-5xl py-3 text-black'>Get Involved</h1>
                 <h2>There are a few ways that you can help the locals: </h2>
                 <div className='border border-gray-400 shadow-md py-2  my-3'>
-                    <div className=' px-4 text-black text-xl text-left'>
+                    <div className=' px-4 text-black text-xl text-center '>
                         Donate items of clothing, toiletries or medical aids. If you are travelling to Cape Verde, please
                         consider bringing a suitcase of donations with you or a suitcase specifically for a family. We can
                         apply for extra luggage allowance, so it need not affect your own allowance.
@@ -35,7 +34,7 @@ export default function GetInvolved() {
                     </div>
                 </div>
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
-                    <p className=' text-black text-xl text-left px-4'>If you are travelling to Cape Verde from the UK, but cannot donate yourself, we can send you a
+                    <p className=' text-black text-xl text-center px-4'>If you are travelling to Cape Verde from the UK, but cannot donate yourself, we can send you a
                         bag of donations to repack and transport for us. We can apply for extra luggage allowance to
                         cater for this.
                     </p>
@@ -43,8 +42,8 @@ export default function GetInvolved() {
 
                 <div className='border border-gray-400 shadow-md py-3 my-3'>
                     <h2>Fundraise:</h2>
-                    <div className=' text-black text-xl text-left  px-4'>We rely totally on donations for funding. All our staff are volunteers, so all money
-                        raised will go directly to the charity. Hold a cake sale, ask your school to have a non-uniform
+                    <div className=' text-black text-xl text-center  px-4'>Monetary donations are essential for our missions. All our staff are volunteers, so all money
+                        raised will go directly to the charity.If you can't afford to donate; have fun and hold a fundraiser event. Hold a cake sale, ask your school to have a non-uniform
                         day, do a sponsored walk, jump out of a plane or start a crowdfunder page?
                         <div className='grid grid-cols-2 gap-2 mt-3'>
                             <div className="flex justify-center">
@@ -66,11 +65,10 @@ export default function GetInvolved() {
                 </div>
                 <div className='border border-gray-400 shadow-md py-4 my-3'>
                     <h2 className='px-4'>Eat out or visit a bar or shop</h2>
-                    <div className='text-black  text-xl py-3 text-left px-4 '>
-                        Many tourists stay in the hotels and do not see the poverty outside
-                        of the hotels.<br /> Pop into town and support the local businesses there.<br /> Cape Verde is generally a
+                    <div className='text-black  text-xl py-3 text-center px-4 '>
+                        Many tourists stay in the hotels and do not see the poverty beyond the hotels. Pop into town and support the local businesses there. Cape Verde is generally a
                         very safe country but tourism does lure people from other African countries and many of the
-                        street sellers are not Cape Verdean.<br /> As in any country, keep your personal items close to you. If
+                        street sellers are not Cape Verdean. As in any country, keep your personal items close to you. If
                         you do not want to be bothered by the street sellers turn your hotel bracelet inside out, (as they
                         can pretend they are from your hotel), or just tell them that you have been to their shop before.
                         There is always a minority in any country, but the majority listen when you say that you are not
@@ -91,7 +89,7 @@ export default function GetInvolved() {
                 </div>
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
                     <h2>Donate to one family:</h2>
-                    <p className=' text-black text-xl text-left px-4'> We can provide you with details of a family in need and your suitcase can
+                    <p className=' text-black text-xl text-center px-4'> We can provide you with details of a family in need and your suitcase can
                         be filled with clothing and toiletries specifically for that family. We work alongside local, public
                         and private partners and families are assessed. We can apply for extra luggage allowance (for
                         UK travellers) so it need not affect your own allowance. The empty suitcases are used by the
@@ -111,7 +109,7 @@ export default function GetInvolved() {
                     </div>
                 </div>
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
-                    <p className=' text-black text-xl text-left  px-4'>Bring donations or leave items behind at the end of your holiday. It can be difficult to get items
+                    <p className=' text-black text-xl text-center  px-4'>Bring donations or leave items behind at the end of your holiday. It can be difficult to get items
                         onto the islands and many locals cannot afford the high price tags for basic items like clothing,
                         toiletries and sanitary products. If you have a little space in your suitcase for some items, these
                         would be greatly appreciated.
@@ -128,23 +126,26 @@ export default function GetInvolved() {
                             </div>
                         </div>
                     </div>
-                    <p className='text-black text-xl text-left  px-4'> If you would like to bring a whole suitcase, we can apply for extra
+                    <p className='text-black text-xl text-center  px-4'> If you would like to bring a whole suitcase, we can apply for extra
                         luggage allowance (for UK travellers) so it need not affect your own allowance. Or alternatively,
-                        leave some of your clothing behind at the end of your holiday. <br />Children’s clothing is always needed, so if your child will have outgrown their clothes or shoes by the next summer, these
+                        leave some of your clothing behind at the end of your holiday. Children’s clothing is always needed, so if your child will have outgrown their clothes or shoes by the next summer, these
                         could be left behind for a family. Please only donate items in good condition as the refuse
                         system is basic on the islands.
                     </p>
                 </div>
                 <div className='border border-gray-400 shadow-md py-4 my-3'>
                     <h1 className='px-4'>Donations</h1>
-                    <h2>Clothing</h2>
-                    <p className='text-black  text-xl py-3 text-left px-4'>
+                    <h2>Clothing and Linen</h2>
+                    <p className='text-black  text-xl py-3 text-center px-4'>
                         All clothing is appreciated but please bear in mind that temperatures very rarely fall below 20
-                        degrees. (Winter coats are not needed and take up valuable suitcase weight allowance).<br />
-                        Shoes, sandals and trainers (sneakers).<br />
-                        Bed sheets.
+                        degrees. (Winter coats are not needed and take up valuable suitcase weight allowance).
                     </p>
-                    <div className="grid grid-cols-2 gap-2">
+                    <li>Shoes.</li>
+                    <li>Sandals.</li>
+                    <li>Trainers (Sneakers).</li>
+                    <li>Bed sheets.</li>
+                    <li>Towels.</li>
+                    <div className="grid grid-cols-2 gap-2 mt-3">
                         <div className="flex justify-center">
                             <div className="image-container">
                                 <img src="/images/clpthing-donations1.jpg" alt="Image 1" className="max-w-full " />
@@ -152,14 +153,14 @@ export default function GetInvolved() {
                         </div>
                         <div className="flex justify-center">
                             <div className="image-container">
-                                <img src="/images/clothing-donations2.jpg" alt="Image 2" className="max-w-full " />
+                                <img src="/images/donationslisa.jpg" alt="Image 2" className="max-w-full " />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='border border-gray-400 shadow-md py-3 my-3'>
                     <h1 className='px-4'>School supplies</h1>
-                    <p className='text-black  text-xl py-1 text-left px-4'>
+                    <p className='text-black  text-xl py-1 text-center px-4'>
                         Fill a suitcase with school supplies and stationery. Schools get little governmental support.
                         Families are asked to provide their own school bag with stationery. You can bring a case with
                         school supplies that will be passed on to schools on different Cape Verdean islands. Or bring a
@@ -194,7 +195,7 @@ export default function GetInvolved() {
                 </div>
                 <div className='border border-gray-400 shadow-md py-4 my-3' style={{ margin: 'auto' }}>
                     <h1 className='px-4'>Health and medical aids</h1>
-                    <p className='text-black  text-xl py-3 text-left px-4'>
+                    <p className='text-black  text-xl py-3 text-center px-4'>
                         Health care and medicines are inadequate and expensive on the islands. Although we do not
                         give medicines, we can help with promoting a healthy lifestyle and can provide some medical
                         aids.
@@ -214,12 +215,12 @@ export default function GetInvolved() {
                             </div>
                         </div>
                     </div>
-                    <p className='text-black  text-xl py-2 text-left px-4'>At My Cape Verde, we try to encourage donors to be as eco-friendly as possible Reusable
+                    <p className='text-black  text-xl py-2 text-center px-4'>At My Cape Verde, we try to encourage donors to be as eco-friendly as possible Reusable
                         incontinence pads, reusable sanitary pads, period pants, or period cups and reusable nappies
                         are not only better for the environment, but also save the families money longer term.<br />
                     </p>
                     <div>
-                        <p className='text-black  text-xl py-2 text-left px-4'>Medical aids are expensive in Cape Verde. Wheelchairs and walking frames are in short supply if
+                        <p className='text-black  text-xl py-2 text-center px-4'>Medical aids are expensive in Cape Verde. Wheelchairs and walking frames are in short supply if
                             you are able to donate one that is no longer needed. Unwanted spectacles/reading glasses can
                             be donated to health centres.
                             The shanty towns can be very dusty and dirty. Travel cots are beneficial for keeping babies and
@@ -241,7 +242,7 @@ export default function GetInvolved() {
                 </div>
                 <div className='border border-gray-400 shadow-md py-4 my-3' style={{ margin: 'auto' }}>
                     <h1 className='px-4'>Sports clubs and community centers</h1>
-                    <p className='text-black  text-xl py-3 text-left px-4'>
+                    <p className='text-black  text-xl py-3 text-center px-4'>
                         Support a sports club/team or community centre. Many children play sports, but families
                         cannot usually afford the correct footwear. The majority of houses are small and children are
                         sent outside to play. Footballs, basketballs, skipping ropes etc can help keep children

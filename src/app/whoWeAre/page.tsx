@@ -10,9 +10,9 @@ export const metadata = {
 
 export default function WhoWeAre() {
     return (
-        <div style={{ minHeight: '100vh' }}>
+        <div className='bg-gradient-to-br from-blue-500 via-white to-red-500' style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div style={{ backgroundColor: '#f0f9ff'}}>
+            <div className=' bg-gradient-to-r from-blue-500 via-white to-red-500'>
                 <h1 className='text-center text-5xl py-3 text-black'>Who we are</h1>
                 <div className='border border-gray-400  shadow-md py-2 mx-3' style={{ margin: 'auto' }}>
                     <p className='px-3 text-black text-xl text-center'>

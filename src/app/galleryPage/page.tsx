@@ -2,9 +2,9 @@ import ResponsiveNavbar from "../components/ResponsiveNavbar";
 
 export default function Gallery() {
     return (
-        <div>
+        <div className=" bg-gradient-to-r from-blue-500 via-white to-red-500">
             <ResponsiveNavbar />
-            <div className="p-9 " style={{ backgroundColor: '#cbd5e1'}}>
+            <div className="p-9  bg-gradient-to-r from-blue-500 via-white to-red-500">
                 <h1 className="text-2xl font-bold text-white mb-4 text-center">Gallery</h1>
                 <div className="grid grid-cols-2 gap-2">
                     <div className="flex justify-center">

@@ -11,11 +11,12 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className=' relative' style={{ minHeight: '100vh', backgroundColor: '#fefce8'}}>
+    <div className=' relative bg-gradient-to-br from-blue-500 via-white to-red-500' style={{ minHeight: '100vh'}}>
       <ResponsiveNavbar />
-      <h1 className="text-3xl text-center mt-3">Our Aim:</h1>
+      <div className=" bg-gradient-to-r from-blue-500 via-white to-red-500">
+      <h1 className="text-3xl text-center pt-3">Our Aim:</h1>
         <Image className="w-full px-3 py-3" src="/images/frontpageimage1.jpg" alt="verde" width={1200} height={100} style={{ height: 'auto' }} />
-        <div className="text-center">
+        <div className="text-center text-black">
           <p>We are a welfare charity aiming to help overcome poverty in Cape Verde and improve the quality of life for Cape Verdeans.</p>
       </div>
       <div style={{ width: '100%' }}>
@@ -25,6 +26,7 @@ export default function Home() {
         <DonateButton />
       </div>
       <Footer />
+      </div>
     </div>
   );
 }

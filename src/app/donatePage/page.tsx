@@ -9,9 +9,9 @@ export const metadata = {
 
 export default function Donate() {
     return (
-        <div style={{ minHeight: '100vh' }}>
+        <div className='bg-gradient-to-br from-blue-500 via-white to-red-500' style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className=' text-black px-3 text-center' style={{ backgroundColor: '#fff7ed'}}>
+            <div className=' bg-gradient-to-r from-blue-500 via-white to-red-500 text-black px-3 text-center' >
                 <h1 className='text-center text-5xl py-3 text-black'>There are several ways to donate:</h1>
                 <div className='border border-gray-400 shadow-md py-2  my-3'>
                     <h2>Make a monetary donation</h2>

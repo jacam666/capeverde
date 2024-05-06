@@ -9,9 +9,9 @@ export const metadata = {
 
 export default function GetInvolved() {
     return (
-        <div style={{ minHeight: '100vh' }}>
+        <div className='bg-gradient-to-br from-blue-500 via-white to-red-500' style={{ minHeight: '100vh' }}>
             <ResponsiveNavbar />
-            <div className=' text-black px-3 text-center' style={{ backgroundColor: '#fffbeb'}}>
+            <div className=' text-black px-3 text-center  bg-gradient-to-r from-blue-500 via-white to-red-500'>
                 <h1 className='text-center text-5xl py-3 text-black'>Get Involved</h1>
                 <h2>There are a few ways that you can help the locals: </h2>
                 <div className='border border-gray-400 shadow-md py-2  my-3'>

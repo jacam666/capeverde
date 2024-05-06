@@ -27,7 +27,7 @@ export default function Team() {
     ];
 
     return (
-        <div style={{ backgroundColor: '#f7fee7'}}>
+        <div className=" bg-gradient-to-r from-blue-500 via-white to-red-500">
             <ResponsiveNavbar />
             <h1 className="text-black text-center mt-3">Meet Our Team</h1>
             <div className="gap-2 grid  sm:grid-cols-2 grid-cols-1 ">

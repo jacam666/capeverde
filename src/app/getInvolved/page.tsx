@@ -43,7 +43,7 @@ export default function GetInvolved() {
                 <div className='border border-gray-400 shadow-md py-3 my-3'>
                     <h2>Fundraise:</h2>
                     <div className="text-black text-xl text-center  px-4">Monetary donations are essential for our missions. All our staff are volunteers, so all money
-                        raised will go directly to the charity.If you can't afford to donate; have fun and hold a fundraiser event. Hold a cake sale, ask your school to have a non-uniform
+                        raised will go directly to the charity.If you can&apos;t afford to donate; have fun and hold a fundraiser event. Hold a cake sale, ask your school to have a non-uniform
                         day, do a sponsored walk, jump out of a plane or start a crowdfunder page?
                         
                         <div className='grid grid-cols-2 gap-2 mt-3'>

@@ -18,25 +18,41 @@ export default function Donate() {
                     <DonateButton />
                 </div>
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
-                    {/* <p className=' text-black text-xl text-left  px-4'>Bring donations or leave items behind at the end of your holiday. It can be difficult to get items
-                        onto the islands and many locals cannot afford the high price tags for basic items like clothing,
-                        toiletries and sanitary products. If you have a little space in your suitcase for some items, these
-                        would be greatly appreciated.
-                    </p> */}
                     <div className="grid sm:grid-cols-2  lg:grid-cols-4 gap-2 pt-3 mx-3 mb-3">
                         <div className="flex justify-center">
                             <div className="image-container">
-                                <img src="/images/tui (3).jpeg" alt="Image 1"/>
+                                <img src="/images/tui (3).jpeg" alt="Image 1" />
                             </div>
                         </div>
-                        <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at sit? Debitis dolore quisquam saepe soluta illo sint minus officiis facere! Enim placeat, perspiciatis vitae quasi quis praesentium nesciunt reiciendis!
+                        <div className='flex items-center'>
+                            Thanks to TUI UK, OSPA can apply to TUI for up to 20kg of free charitable luggage per booking, for travellers from the UK. This enables visitors to bring over much needed donations and supplies for charitable usage.                        </div>
+                        <div className="flex justify-center">
+                            <div>
+                                <img className='' src="/images/tui-luggage-barcode.jpg" alt="Image 2" />
+                            </div>
                         </div>
+                        <div className='flex text-center items-center lg:text-xl'>
+                            You can then bring extra items over that are so desperately needed here, but cannot be sourced on the island.
+                        </div>
+                    </div>
+                </div>
+                <div className='border border-gray-400 shadow-md py-2 my-3'>
+                    <div className="grid sm:grid-cols-2  lg:grid-cols-4 gap-2 pt-3 mx-3 mb-3">
                         <div className="flex justify-center">
                             <div className="image-container">
-                                <img src="/images/WhatsApp Image donation4.jpg" alt="Image 2" />
+                                <img src="/images/paypal.png" alt="Image 1" />
                             </div>
                         </div>
+                        <div className='flex items-center'>
+                            If you want to donate via Paypal, simply click here and follow the simple instructions. Paypal is safe and secure, and you can donate via Paypal also if you do not have a Paypal account.
+                        </div>
+                        <div>
+                            <div className='image-container'>
+                                <img src='/images/paypal-demo-barcode.jpg'/>
+                            </div>
+                        </div>
+                        <div className='flex text-center items-center'>
+                        Please select the Friends and Family option to prevent any fees Thank you! Or scan the barcode.</div>
                     </div>
                 </div>
             </div>

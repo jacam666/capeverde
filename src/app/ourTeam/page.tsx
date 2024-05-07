@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import ResponsiveNavbar from "../components/ResponsiveNavbar";
+import SmallerFooter from "../components/SmallerFooter";
 
 export const metadata = {
     title: "Our Team"
@@ -91,6 +92,7 @@ export default function Team() {
                     </div>
                 </div>
             </div>
+            <SmallerFooter/>
         </div>
     );
 }

@@ -1,6 +1,7 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ResponsiveNavbar from "../components/ResponsiveNavbar"
 import DonateButton from '../components/DonateButton';
+import SmallerFooter from '../components/SmallerFooter';
 
 
 export const metadata = {
@@ -113,6 +114,7 @@ export default function WhatWeDo() {
                 </div>
                 <DonateButton />
             </div>
+            <SmallerFooter/>
         </div>
     );
 }

@@ -1,6 +1,7 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ResponsiveNavbar from "../components/ResponsiveNavbar"
 import DonateButton from '../components/DonateButton';
+import SmallerFooter from '../components/SmallerFooter';
 
 
 export const metadata = {
@@ -242,7 +243,7 @@ export default function GetInvolved() {
                     <li>Zimmer frames</li>
                     <li>Hearing aids</li>
                 </div>
-                <div className='border border-gray-400 shadow-md py-4 my-3' style={{ margin: 'auto' }}>
+                <div className='border border-gray-400 shadow-md p-4 mt-3' style={{ margin: 'auto' }}>
                     <h1 className='px-4'>Sports clubs and community centers</h1>
                     <p className='text-black  text-xl py-3 text-center px-4'>
                         Support a sports club/team or community centre. Many children play sports, but families
@@ -281,6 +282,7 @@ export default function GetInvolved() {
                     <li>Jigsaws</li>
                 </div>
             </div>
+            <SmallerFooter/>
         </div>
 
     );

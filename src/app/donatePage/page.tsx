@@ -1,7 +1,8 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ResponsiveNavbar from "../components/ResponsiveNavbar"
 import DonateButton from '../components/DonateButton';
-import Link from 'next/link';
+import Footer from '../components/Footer';
+import SmallerFooter from '../components/SmallerFooter';
 
 
 export const metadata = {
@@ -38,7 +39,7 @@ export default function Donate() {
                         </div>
                     </div>
                 </div>
-                <div className='border border-gray-400 shadow-md py-2 my-3'>
+                <div className='border border-gray-400 shadow-md py-2 mt-3'>
                     <div className="grid sm:grid-cols-2  lg:grid-cols-4 gap-2 pt-3 mx-3 mb-3">
                         <div className="flex justify-center">
                             <a href='https://paypal.com' className="image-container">
@@ -59,6 +60,7 @@ export default function Donate() {
                     </div>
                 </div>
             </div>
+            <SmallerFooter />
         </div >
     );
 }

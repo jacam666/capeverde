@@ -1,4 +1,5 @@
 import ResponsiveNavbar from "../components/ResponsiveNavbar";
+import SmallerFooter from "../components/SmallerFooter";
 
 export default function Gallery() {
     return (
@@ -129,6 +130,7 @@ export default function Gallery() {
                     </div>
                 </div>
             </div>
+            <SmallerFooter/>
         </div>
     );
 }

@@ -1,6 +1,7 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ResponsiveNavbar from "../components/ResponsiveNavbar"
 import DonateButton from '../components/DonateButton';
+import Link from 'next/link';
 
 
 export const metadata = {
@@ -25,7 +26,8 @@ export default function Donate() {
                             </div>
                         </div>
                         <div className='flex items-center'>
-                            Thanks to TUI UK, My Cape Verde can apply to TUI for up to 20kg of free charitable luggage per booking, for travellers from the UK. This enables visitors to bring over much needed donations and supplies for charitable usage.                        </div>
+                            Thanks to TUI UK, My Cape Verde can apply to TUI for up to 20kg of free charitable luggage per booking, for travellers from the UK. This enables visitors to bring over much needed donations and supplies for charitable usage.
+                        </div>
                         <div className="flex justify-center">
                             <div>
                                 <img className='' src="/images/tui-luggage-barcode.jpg" alt="Image 2" />
@@ -39,23 +41,24 @@ export default function Donate() {
                 <div className='border border-gray-400 shadow-md py-2 my-3'>
                     <div className="grid sm:grid-cols-2  lg:grid-cols-4 gap-2 pt-3 mx-3 mb-3">
                         <div className="flex justify-center">
-                            <div className="image-container">
+                            <a href='https://paypal.com' className="image-container">
                                 <img src="/images/paypal.png" alt="Image 1" />
-                            </div>
+                            </a>
                         </div>
                         <div className='flex items-center'>
-                            If you want to donate via Paypal, simply click here and follow the simple instructions. Paypal is safe and secure, and you can donate via Paypal also if you do not have a Paypal account.
+                            <p>If you want to donate via Paypal, simply click <a href='https://paypal.com'>here</a> and follow the simple instructions. Paypal is safe and secure, and you can donate via Paypal also if you do not have a Paypal account.
+                            </p>
                         </div>
                         <div>
                             <div className='image-container'>
-                                <img src='/images/paypal-demo-barcode.jpg'/>
+                                <img src='/images/paypal-demo-barcode.jpg' />
                             </div>
                         </div>
                         <div className='flex text-center items-center'>
-                        Please select the Friends and Family option to prevent any fees Thank you! Or scan the barcode.</div>
+                            Please select the Friends and Family option to prevent any fees Thank you! Or scan the barcode.</div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }

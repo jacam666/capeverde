@@ -84,7 +84,7 @@ export default function Team() {
                             <img className="image-container" src="/images/volunteer8.jpg" alt="volunteer-6" />
                             <h2 className="text-center text-black">Marco</h2>
                         </div>
-                        <div className="mt-3 mx-2">
+                        <div className="mt-3 mx-2 mb-5">
                             <img className="image-container" src="/images/volunteer9.jpg" alt="volunteer-6" />
                             <h2 className="text-center text-black">Fortz</h2>
                         </div>

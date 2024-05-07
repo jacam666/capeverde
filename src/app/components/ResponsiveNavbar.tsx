@@ -23,8 +23,8 @@ export default function ResponsiveNavbar() {
             <MDBContainer fluid className=''>
                 {/* <MDBNavbarLink href='/' style={{ fontSize: '1.5rem' }}>My Cape Verde</MDBNavbarLink> */}
                 <MDBNavbarBrand>
-                    <img src='/images/myCapeVerdeLOGO1copy.png' alt="Logo" className="h-14"  />
-                    {/* <MDBNavbarLink href='/'>My Cape Verde</MDBNavbarLink> */}
+                    <MDBNavbarLink href='/'>My Cape Verde</MDBNavbarLink>
+                    <img src='/images/myCapeVerdeLOGO1copy.png' alt="Logo" className="h-14" />
                 </MDBNavbarBrand>
                 <MDBNavbarToggler
                     aria-expanded='false'
@@ -37,14 +37,14 @@ export default function ResponsiveNavbar() {
                 <MDBCollapse navbar open={openNavSecond}>
                     <div className='ms-auto'>
                         <MDBNavbarNav>
-                            <MDBNavbarLink  className='text-black' active aria-current='page' href='/'>Home</MDBNavbarLink>
-                            <MDBNavbarLink  className='text-black' href='./whatWeDo'>What we do</MDBNavbarLink>
-                            <MDBNavbarLink  className='text-black' href='./whoWeAre'>Who we are</MDBNavbarLink>
-                            <MDBNavbarLink  className='text-black' href='./getInvolved'>Get involved</MDBNavbarLink>
-                            <MDBNavbarLink  className='text-black' href='./contactUs'>Contact Us</MDBNavbarLink>
-                            <MDBNavbarLink  className='text-black' href='./donatePage'>Donate</MDBNavbarLink>
-                            <MDBNavbarLink  className='text-black' href='./galleryPage'>Gallery</MDBNavbarLink>
-                            <MDBNavbarLink  className='text-black' href='./ourTeam'>Our Team</MDBNavbarLink>
+                            <MDBNavbarLink className='text-black' active aria-current='page' href='/'>Home</MDBNavbarLink>
+                            <MDBNavbarLink className='text-black' href='./whatWeDo'>What we do</MDBNavbarLink>
+                            <MDBNavbarLink className='text-black' href='./whoWeAre'>Who we are</MDBNavbarLink>
+                            <MDBNavbarLink className='text-black' href='./getInvolved'>Get involved</MDBNavbarLink>
+                            <MDBNavbarLink className='text-black' href='./contactUs'>Contact Us</MDBNavbarLink>
+                            <MDBNavbarLink className='text-black' href='./donatePage'>Donate</MDBNavbarLink>
+                            <MDBNavbarLink className='text-black' href='./galleryPage'>Gallery</MDBNavbarLink>
+                            <MDBNavbarLink className='text-black' href='./ourTeam'>Our Team</MDBNavbarLink>
                         </MDBNavbarNav>
                     </div>
                 </MDBCollapse>

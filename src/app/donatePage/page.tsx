@@ -46,8 +46,8 @@ export default function Donate() {
                             </a>
                         </div>
                         <div className='flex items-center'>
-                            <p>If you want to donate via Paypal, simply click <a href='https://paypal.com'>here</a> and follow the simple instructions. Paypal is safe and secure, and you can donate via Paypal also if you do not have a Paypal account.
-                            </p>
+                            <div>If you want to donate via Paypal, simply click <a href='https://paypal.com'>here</a> and follow the simple instructions. Paypal is safe and secure, and you can donate via Paypal also if you do not have a Paypal account.
+                            </div>
                         </div>
                         <div>
                             <div className='image-container'>

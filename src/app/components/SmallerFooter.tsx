@@ -29,15 +29,15 @@ export default function SmallerFooter() {
             <section className='text-black'>
                 <MDBContainer className='text-center text-md-start mt-5'>
                     <MDBRow className='mt-3'>
-                        <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+                        <MDBCol md="5" lg="4" xl="3" className='mx-auto mb-md-0 mb-4'>
                             <h6 className='text-uppercase text-center fw-bold mb-4'>Contact</h6>
                             <p>
                                 <MDBIcon icon="envelope" className="me-3" />
-                                info@example.com
+                                enquiries@mycapeverde.org
                             </p>
-                            <p>
+                            {/* <p>
                                 <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
-                            </p>
+                            </p> */}
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>

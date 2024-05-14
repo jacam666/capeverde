@@ -63,7 +63,7 @@ export default function WhoWeAre() {
 
                 </div>
                 <div>
-                    <Image className='w-full px-3 py-3' src="/images/Whats App Image 2024-04-27 at 17.10_edited.jpg" alt='young child' width={500} height={500} />
+                    <Image className='w-full px-3 py-3' src="/images/WhatsApp Image group.jpg" alt='young child' width={500} height={500} />
                 </div>
                 <DonateButton />
             </div>

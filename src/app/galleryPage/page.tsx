@@ -35,7 +35,7 @@ export default function Gallery() {
                     </div>
                     <div className="flex justify-center">
                         <div className="image-container">
-                            <img src="/images/Whats App Image 2024-04-27 at 17.10_edited.jpg" alt="Image 6" className="max-w-full " />
+                            <img src="/images/WhatsApp Image gallery.jpg" alt="Image 6" className="max-w-full " />
                         </div>
                     </div>
                     {/* <div className="flex justify-center">

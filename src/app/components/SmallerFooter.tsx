@@ -46,7 +46,7 @@ export default function SmallerFooter() {
             <div className='text-center p-4 text-black' style={{ backgroundColor: 'rgba(0, 0, 0, 0.01)' }}>
                 © 2024 Copyright:
                 <a className='text-reset fw-bold' href='#'>
-                    camdesigns.com
+                    CamDesigns.com
                 </a>
             </div>
         </MDBFooter>

@@ -15,14 +15,9 @@ export default function Gallery() {
                     </div>
                     <div className="flex justify-center">
                         <div className="image-container">
-                            <img src="/images/gallery12.jpg" alt="image-2" className="max-w-full " />
+                            <img src="/images/WhatsApp Image 2024-05-19 at 11.31.19_a0b6af57.jpg" alt="image-2" className="max-w-full " />
                         </div>
                     </div>
-                    {/* <div className="flex justify-center">
-                        <div className="image-container">
-                            <img src="/images/R_edited2.jpg" alt="Image 3" className="max-w-full " />
-                        </div>
-                    </div> */}
                     <div className="flex justify-center">
                         <div className="image-container">
                             <img src="images/gallery14.jpg" alt="Image 4" className="max-w-full " />
@@ -38,31 +33,11 @@ export default function Gallery() {
                             <img src="/images/WhatsApp Image gallery.jpg" alt="Image 6" className="max-w-full " />
                         </div>
                     </div>
-                    {/* <div className="flex justify-center">
-                        <div className="image-container">
-                            <img src="/images/OIP (1).jpeg" alt="Image 7" className="max-w-full " />
-                        </div>
-                    </div> */}
                     <div className="flex justify-center">
                         <div className="image-container">
-                            <img src="/images/fundraise3.jpg" alt="Image 8" className="max-w-full " />
+                            <img src="/images/WhatsApp Image 2024-05-19 at 11.24.jpg" alt="Image 8" className="max-w-full " />
                         </div>
                     </div>
-                    {/* <div className="flex justify-center">
-                        <div className="image-container">
-                            <img src="/images/espargos-sal-cape-verde-wm.jpg" alt="Image 9" className="max-w-full " />
-                        </div>
-                    </div> */}
-                    {/* <div className="flex justify-center">
-                        <div className="image-container">
-                            <img src="/images/download_schooledited.jpg" alt="Image 10" className="max-w-full " />
-                        </div>
-                    </div> */}
-                    {/* <div className="flex justify-center">
-                        <div className="image-container">
-                            <img src="/images/localbusiness2.jpeg" alt="Image 11" className="max-w-full " />
-                        </div>
-                    </div> */}
                     <div className="flex justify-center">
                         <div className="image-container">
                             <img src="/images/shanty.jpg" alt="Image 12" className="max-w-full " />
@@ -73,11 +48,6 @@ export default function Gallery() {
                             <img src="/images/gallery1.jpg" alt="Image 13" className="max-w-full " />
                         </div>
                     </div>
-                    {/* <div className="flex justify-center">
-                        <div className="image-container">
-                            <img src="/images/sports.jpg" alt="Image 14" className="max-w-full " />
-                        </div>
-                    </div> */}
                     <div className="flex justify-center">
                         <div className="image-container">
                             <img src="/images/gallery2.jpg" alt="Image 15" className="max-w-full " />

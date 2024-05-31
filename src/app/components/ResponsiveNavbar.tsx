@@ -20,7 +20,8 @@ export default function ResponsiveNavbar() {
             <MDBContainer fluid className='d-flex justify-content-between align-items-center'>
                 <MDBNavbarBrand>
                     <MDBNavbarLink href='/'>My Cape Verde</MDBNavbarLink>
-                    <img src='/images/myCapeVerdeLOGO1copy.png' alt="Logo" className="h-14" />
+                    {/* <img src='/images/myCapeVerdeLOGO1copy.png' alt="Logo" className="h-14" /> */}
+                    <img src='/images/image.png' alt="Logo" className="h-10 ml-5" />
                 </MDBNavbarBrand>
                 <MDBNavbarToggler
                     aria-expanded='false'

@@ -52,7 +52,8 @@ export default function Donate() {
                         </div>
                         <div>
                             <div className='image-container'>
-                                <img src='/images/frame (1).png' />
+                                {/* <img src='/images/frame (1).png' /> */}
+                                <img src='/images/qrcode_www.paypal.com.png' />
                             </div>
                         </div>
                         <div className='flex text-center items-center'>

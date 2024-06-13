@@ -40,7 +40,7 @@ export default function ResponsiveNavbar() {
                         <MDBNavbarLink className='text-black' href='./donatePage'>Donate</MDBNavbarLink>
                         <MDBNavbarLink className='text-black' href='./galleryPage'>Gallery</MDBNavbarLink>
                         <MDBNavbarLink className='text-black' href='./ourTeam'>Our Team</MDBNavbarLink>
-                        {/* <MDBNavbarLink className='text-black' href='./blogPage'>Blog</MDBNavbarLink> */}
+                        <MDBNavbarLink className='text-black' href='./blogPage'>Blog</MDBNavbarLink>
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBContainer>

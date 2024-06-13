@@ -1,8 +1,18 @@
-// app/blog/page.tsx
+import React from 'react';
 
-export default async function BlogListPage() {
-    return (
-        <h1>blog</h1>
-    );
-    
+interface BlogProps {
+    title: string;
+    content: string;
 }
+
+const Blog: React.FC<BlogProps> = ({ title, content }) => {
+    return (
+        <div>
+            <h2>{title}</h2>
+            <h1>hello</h1>
+            <p>{content}</p>
+        </div>
+    );
+};
+
+export default Blog;

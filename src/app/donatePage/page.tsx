@@ -1,7 +1,7 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ResponsiveNavbar from "../components/ResponsiveNavbar"
 import DonateButton from '../components/DonateButton';
-import Footer from '../components/Footer';
+//import Footer from '../components/Footer';
 import SmallerFooter from '../components/SmallerFooter';
 
 

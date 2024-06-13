@@ -13,7 +13,12 @@ const customStyles = {
         bottom: 'auto',
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
+        backgroundColor: 'transparent',
+        border: 'none',
     },
+    overlay: {
+        backgroundColor: 'rgba(0, 0, 0, 0.75)'
+    }
 };
 
 export default function Gallery() {

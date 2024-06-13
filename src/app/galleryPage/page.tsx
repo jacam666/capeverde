@@ -1,11 +1,9 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ResponsiveNavbar from "../components/ResponsiveNavbar";
 import SmallerFooter from "../components/SmallerFooter";
 import Modal from 'react-modal';
-
-Modal.setAppElement(document.body); // Use document.body if #__next does not exist
 
 const customStyles = {
     content: {
@@ -21,6 +19,12 @@ const customStyles = {
 export default function Gallery() {
     const [modalIsOpen, setIsOpen] = useState(false);
     const [selectedImage, setSelectedImage] = useState('');
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            Modal.setAppElement(document.body);
+        }
+    }, []);
 
     function openModal(imageSrc: string) {
         setSelectedImage(imageSrc);
@@ -134,22 +138,24 @@ export default function Gallery() {
                         </div>
                     </div>
                 </div>
-                <Modal
-                    isOpen={modalIsOpen}
-                    onRequestClose={closeModal}
-                    style={customStyles}
-                    contentLabel="Image Modal"
-                >
-                    <div className="flex flex-col items-center">
-                        <img src={selectedImage} alt="Selected" className="max-w-full max-h-[80vh]" />
-                        <button
-                            className="mt-4 bg-red-500 text-white px-4 py-2 rounded"
-                            onClick={closeModal}
-                        >
-                            Close
-                        </button>
-                    </div>
-                </Modal>
+                {typeof window !== 'undefined' && (
+                    <Modal
+                        isOpen={modalIsOpen}
+                        onRequestClose={closeModal}
+                        style={customStyles}
+                        contentLabel="Image Modal"
+                    >
+                        <div className="flex flex-col items-center">
+                            <img src={selectedImage} alt="Selected" className="max-w-full max-h-[80vh]" />
+                            <button
+                                className="mt-4 bg-red-500 text-white px-4 py-2 rounded"
+                                onClick={closeModal}
+                            >
+                                Close
+                            </button>
+                        </div>
+                    </Modal>
+                )}
             </div>
             <SmallerFooter />
         </div>

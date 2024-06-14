@@ -22,7 +22,7 @@ export default function Home() {
         <HomePageButton />
       </div>
       <h1 className="homepage-header text-5xl md:text-6xl  text-gray-900 text-center mx-auto my-5 px-5 py-9">
-        We are a welfare charity aiming to help overcome poverty in Cape Verde and improve the quality of life for Cape Verdians.
+        We are a welfare charity aiming to help overcome poverty in Cape Verde and improve the quality of life for Cape Verdeans.
       </h1>
       {/* <div className="flex flex-col sm:flex-row w-full justify-between "> */}
       <div className="flex flex-col sm:flex-row">

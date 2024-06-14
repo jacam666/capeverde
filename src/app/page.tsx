@@ -16,7 +16,7 @@ export default function Home() {
       <ResponsiveNavbar />
       <div className=" pb-8">
         <div className="text-center py-6">
-          <h1 className="homepage-header text-6xl md:text-7xl text-gray-900 text-center mx-auto md:w-3/4 lg:w-2/3 lg:text-6xl mt-16 mb-4">Building a Brighter Future for Cape Verde</h1>
+          <h1 className="homepage-header text-6xl text-gray-900 text-center mx-auto md:w-3/4 lg:w-2/3  mt-16 mb-4">Building a Brighter Future for Cape Verde</h1>
           <h3 className="text-2xl lg:text-2xl sm:py-9">Join us in making a difference, one community at a time.</h3>
         </div>
         <HomePageButton />

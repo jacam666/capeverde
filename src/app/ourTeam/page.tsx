@@ -30,7 +30,7 @@ export default function Team() {
     return (
         <div className="">
             <ResponsiveNavbar />
-            <h1 className="homepage-header text-7xl text-black text-center m-10">Meet Our Team</h1>
+            <h1 className="homepage-header text-6xl text-gray-900 text-center my-12">Meet Our Team</h1>
             <div className="gap-1 grid  sm:grid-cols-2 xl:grid-cols-4 grid-cols-1 p-3">
                 {list.map((item, index) => (
                     <Card key={index}>
@@ -49,8 +49,8 @@ export default function Team() {
                     </Card>
                 ))}
             </div>
-            <div className="border-top border-black mt-3">
-                <h1 className="homepage-header text-7xl text-black text-center m-10">Our Volunteers</h1>
+            <div className="">
+                <h1 className="homepage-header text-6xl text-gray-900 text-center m-10">Our Volunteers</h1>
                 <div>
                     <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-1 over">
                         <div className="my-3 mx-2">

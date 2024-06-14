@@ -65,8 +65,8 @@ export default function Gallery() {
     return (
         <div className="">
             <ResponsiveNavbar />
-            <div className="p-9 ">
-                <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-black mb-4 text-center">Gallery</h1>
+            <div className=" ">
+                <h1 className="homepage-header text-6xl my-12 lg:text-7xl  text-gray-800 text-center">Gallery</h1>
                 <div className="container mx-auto sm:px-5 py-2 lg:px-32 lg:pt-12">
                     <div className="-m-1 flex flex-wrap md:-m-2">
                         <div className="flex w-1/2 flex-wrap">

@@ -14,8 +14,8 @@ export default function Donate() {
     return (
         <div className=''>
             <ResponsiveNavbar />
-            <div className=' text-black px-3 text-center' >
-                <h1 className='homepage-header text-center text-6xl my-6 text-black'>There are several ways to donate:</h1>
+            <div className=' text-black px-3 text-center py-6' >
+                <h1 className='homepage-header text-center text-6xl my-6 text-gray-900'>There are several ways to donate:</h1>
                 <div className='py-2  my-6 text-gray-800'>
                     <h2 className='my-6 pb-3'>Make a monetary donation</h2>
                     <HomePageButton />

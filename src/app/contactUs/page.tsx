@@ -3,9 +3,9 @@ import ResponsiveNavbar from "../components/ResponsiveNavbar"
 
 export default function ContactUs() {
     return (
-        <div className='bg-gradient-to-br from-blue-500 via-white to-red-500' style={{ minHeight: '100vh' }}>
+        <div >
             <ResponsiveNavbar />
-            <div className="isolate px-6 py-24 sm:py-32 lg:px-8  bg-gradient-to-r from-blue-500 via-white to-red-500">
+            <div className="isolate px-6 py-24 sm:py-32 lg:px-8 ">
                 <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
                 </div>
                 <div className="mx-auto max-w-2xl text-center">

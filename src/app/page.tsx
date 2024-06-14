@@ -21,48 +21,52 @@ export default function Home() {
         </div>
         <HomePageButton />
       </div>
-      <h1 className="homepage-header text-5xl md:text-6xl  text-gray-900 text-center mx-auto px-5 py-9">
+      <h1 className="homepage-header text-5xl md:text-6xl  text-gray-900 text-center mx-auto my-5 px-5 py-9">
         We are a welfare charity aiming to help overcome poverty in Cape Verde and improve the quality of life for Cape Verdians.
       </h1>
-      <div className="flex flex-col sm:flex-row md:justify-evenly ">
-        <div className="flex flex-col">
-          <p className="homepage-header text-lg font-bold text-gray-900 mt-8 px-4">Why Choose Us?</p>
+      {/* <div className="flex flex-col sm:flex-row w-full justify-between "> */}
+      <div className="flex flex-col sm:flex-row">
+        <div className="flex flex-col w-1/3">
+          <p className="homepage-header text-xl font-bold text-gray-900 mt-8 px-4">Why Choose Us?</p>
           <div className=" my-4 ml-6 h-1 mb-8 sm:h-1 w-2/6 lg:w-2/5 md:w-2/5 bg-black "></div>
         </div>
-        <div className="flex flex-col sm:flex-row">
-          <div className="sm:w-1/2 my-3 flex flex-col justify-center items-center">
-            <Image
-              src="/images/frontpageimage1_edited.jpg"
-              alt="gallery"
-              width={500}
-              height={500}
-              className="homepage-image w-11/12"
-            />
-            <h5 className="flex text-lg text-black">
-              Community Development
-            </h5>
-            <p className="px-4">
-            Empowering local communities through sustainable initiatives.
-            </p>
-          </div>
-          <div className="sm:w-1/2 flex flex-col justify-center items-center">
-            <Image
-              src="/images/Whats App Image 2024-04-27 at 17_edited2.jpg"
-              alt="gallery"
-              width={500}
-              height={500}
-              className="homepage-image w-11/12"
-            />
-            <h5 className="flex text-black text-lg">
-              Healthcare Services
-            </h5>
-            <p className="px-4">
-            Improving access to essential healthcare for all.
-            </p>
-          </div>
+        <div className="sm:w-1/3 my-3 flex flex-col justify-center items-center">
+          <Image
+            src="/images/frontpageimage1_edited.jpg"
+            alt="gallery"
+            width={500}
+            height={500}
+            className="homepage-image w-11/12"
+          />
+          <h5 className="flex text-lg text-black">
+            Community Development
+          </h5>
+          <p className="px-4 text-gray-700">
+            Empowering local communities sustainably.
+          </p>
         </div>
+
+
+        <div className="sm:w-1/3 flex flex-col justify-center items-center">
+          <Image
+            src="/images/Whats App Image 2024-04-27 at 17_edited2.jpg"
+            alt="gallery"
+            width={500}
+            height={500}
+            className="homepage-image w-11/12"
+          />
+          <h5 className="flex text-black text-lg">
+            Healthcare Services
+          </h5>
+          <p className="px-4 text-gray-700">
+            Improving access to essential healthcare for all.
+          </p>
+        </div>
+
+
       </div>
-      
+      {/* </div> */}
+      <div className=" h-1 sm:h-1 w-1/2 lg:w-2/5 md:w-2/5 bg-black mx-auto my-4"></div>
       <Footer />
     </div>
   );

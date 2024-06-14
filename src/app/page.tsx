@@ -15,8 +15,8 @@ export default function Home() {
     <div className='' >
       <ResponsiveNavbar />
       <div className=" pb-8">
-        <div className="text-center py-9">
-          <h1 className="homepage-header text-6xl md:text-7xl text-gray-900 text-center mx-auto md:w-3/4 lg:w-2/3 lg:text-6xl mt-24">Building a Brighter Future for Cape Verde</h1>
+        <div className="text-center py-6">
+          <h1 className="homepage-header text-6xl md:text-7xl text-gray-900 text-center mx-auto md:w-3/4 lg:w-2/3 lg:text-6xl mt-16 mb-4">Building a Brighter Future for Cape Verde</h1>
           <h3 className="text-2xl lg:text-2xl sm:py-9">Join us in making a difference, one community at a time.</h3>
         </div>
         <HomePageButton />
@@ -69,7 +69,7 @@ export default function Home() {
       {/* <div className=" h-1 sm:h-1 w-1/2 lg:w-2/5 md:w-2/5 bg-black mx-auto my-4"></div> */}
 
       <div className=" mx-4 rounded-lg text-center py-6">
-        <h1 className="homepage-header text-gray-900 py-4 ">
+        <h1 className="homepage-header text-gray-900 ">
           Be Part of the Change
         </h1>
         <p className="text-xl sm:w-1/2 text-center mx-auto mb-5 text-gray-700">

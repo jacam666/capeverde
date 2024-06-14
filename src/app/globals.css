@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
-  @apply bg-gradient-to-r from-blue-500 via-white to-red-500;
+  @apply bg-gradient-to-r from-blue-400 via-white to-red-400;
 }
 
 @layer utilities {
@@ -21,7 +21,6 @@ body {
 
 .homepage-button {
   border-radius: 36px;
-  /* width: 60vw; */
   margin: auto;
   align-items: center;
 }
@@ -32,7 +31,7 @@ body {
 }
 
 
-.image-container {
+/* .image-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -44,6 +43,6 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 
 

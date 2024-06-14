@@ -11,10 +11,10 @@ export const metadata = {
 
 export default function WhoWeAre() {
     return (
-        <div className='bg-gradient-to-br from-blue-500 via-white to-red-500' style={{ minHeight: '100vh' }}>
+        <div className=''>
             <ResponsiveNavbar />
-            <div className=' bg-gradient-to-r from-blue-500 via-white to-red-500'>
-                <h1 className='text-center text-5xl py-3 text-black'>Who we are</h1>
+            <div className=''>
+                <h1 className='homepage-header text-center text-6xl py-3 text-black'>Who we are</h1>
                 <div className=' border border-gray-400  shadow-md py-2 mx-3' style={{ margin: 'auto' }}>
                     <p className='px-3 pt-3 text-black text-xl text-center'>
                         The lack of tourism caused by the Covid pandemic, hit the Cape Verde islands hard. Locals
@@ -60,7 +60,6 @@ export default function WhoWeAre() {
                     <li >To make Christmas special for as many children as possible with a Christmas gift bag.</li>
                     <li >To be environmentally aware – we encourage reusable donations.</li>
                     <li >To help individuals start or improve their own business/enterprise by providing them with the equipment they need.</li>
-
                 </div>
                 <div>
                     <Image className='w-full px-3 py-3' src="/images/WhatsApp Image group.jpg" alt='young child' width={500} height={500} />

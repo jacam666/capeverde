@@ -26,8 +26,8 @@ export default function Home() {
       </h1>
       {/* <div className="flex flex-col sm:flex-row w-full justify-between "> */}
       <div className="flex flex-col sm:flex-row">
-        <div className="flex flex-col w-1/3">
-          <p className="homepage-header text-xl font-bold text-gray-900 mt-8 px-4">Why Choose Us?</p>
+        <div className="flex flex-col sm:w-1/3">
+          <p className="homepage-header text-xl font-bold text-gray-900 mt-8  px-4">Why Choose Us?</p>
           <div className=" my-4 ml-6 h-1 mb-8 sm:h-1 w-2/6 lg:w-2/5 md:w-2/5 bg-black "></div>
         </div>
         <div className="sm:w-1/3 my-3 flex flex-col justify-center items-center">

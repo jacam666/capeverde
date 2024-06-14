@@ -66,10 +66,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" h-1 sm:h-1 w-1/2 lg:w-2/5 md:w-2/5 bg-black mx-auto my-4"></div>
+      {/* <div className=" h-1 sm:h-1 w-1/2 lg:w-2/5 md:w-2/5 bg-black mx-auto my-4"></div> */}
 
-      <div className=" mx-4 rounded-lg text-center py-2">
-        <h1 className="homepage-header text-gray-900 ">
+      <div className=" mx-4 rounded-lg text-center py-6">
+        <h1 className="homepage-header text-gray-900 py-4 ">
           Be Part of the Change
         </h1>
         <p className="text-xl sm:w-1/2 text-center mx-auto mb-5 text-gray-700">

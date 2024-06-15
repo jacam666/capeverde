@@ -14,20 +14,20 @@ export default function Home() {
   return (
     <div className='' >
       <ResponsiveNavbar />
-      <div className=" pb-8">
-        <div className="text-center py-6">
-          <h1 className="homepage-header text-6xl text-gray-900 text-center mx-auto md:w-3/4 lg:w-2/3  mt-16 mb-4">Building a Brighter Future for Cape Verde</h1>
-          <h3 className="text-2xl lg:text-2xl sm:py-9">Join us in making a difference, one community at a time.</h3>
+      <div className="">
+        <div className=" mx-4 rounded-lg text-center py-9">
+          <h1 className="homepage-header text-6xl sm:text-7xl text-gray-900 mt-8 mb-6">
+            My Cape Verde
+          </h1>
+          <p className="text-2xl px-2 text-gray-800 text-center lg:w-2/3 mb-2 xl:w-1/2 mx-auto">
+            We are a welfare charity aiming to help overcome poverty in Cape Verde and improve the quality of life for Cape Verdeans.
+          </p>
         </div>
         <HomePageButton />
       </div>
-      <div className=" mx-4 rounded-lg text-center py-4 my-5">
-        <h1 className="homepage-header text-5xl lg:text-6xl text-gray-900 mb-4">
-          My Cape Verde
-        </h1>
-        <p className="text-xl px-5 text-gray-800 text-center sm:w-3/4 lg:w-2/3  xl:w-1/2 mx-auto">
-          We are a welfare charity aiming to help overcome poverty in Cape Verde and improve the quality of life for Cape Verdeans.
-        </p>
+      <div className="text-center py-6">
+        <h1 className="homepage-header text-5xl px-4 text-gray-900 text-center mx-auto md:w-3/4 lg:w-2/3  mt-8 mb-6">Building a Brighter Future for Cape Verde</h1>
+        <h3 className="text-2xl sm:py-9 text-gray-800">Join us in making a difference.</h3>
       </div>
       <div className="flex flex-col sm:flex-row">
         <div className="flex flex-col  md:w-1/5">
@@ -42,7 +42,7 @@ export default function Home() {
             height={500}
             className="homepage-image w-11/12"
           />
-          <h5 className="flex text-lg text-black">
+          <h5 className="flex text-lg text-black mt-2">
             Community Development
           </h5>
           <p className="px-4 text-gray-700">
@@ -57,11 +57,11 @@ export default function Home() {
             height={500}
             className="homepage-image w-11/12"
           />
-          <h5 className="flex text-black text-lg">
-            Healthcare Services
+          <h5 className="flex text-black text-lg mt-2">
+            Education Programs
           </h5>
           <p className="px-4 text-gray-700">
-            Improving access to essential healthcare for all.
+            Providing education and resources to children and adults
           </p>
         </div>
       </div>
@@ -69,10 +69,10 @@ export default function Home() {
       {/* <div className=" h-1 sm:h-1 w-1/2 lg:w-2/5 md:w-2/5 bg-black mx-auto my-4"></div> */}
 
       <div className=" mx-4 rounded-lg text-center py-6">
-        <h1 className="homepage-header text-gray-900 ">
+        <h1 className="homepage-header text-4xl text-gray-900 mb-4 ">
           Be Part of the Change
         </h1>
-        <p className="text-xl sm:w-1/2 text-center mx-auto mb-5 text-gray-700">
+        <p className="text-xl sm:w-1/2 text-center mx-auto mb-6 text-gray-700">
           Your support can make all the difference. Join us in our mission to empower and uplift our communities.
         </p>
         <HomePageButton />

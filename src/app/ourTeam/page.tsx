@@ -70,7 +70,7 @@ export default function Team() {
                             <h2 className="text-center text-gray-800 text-4xl my-4">Ivan</h2>
                         </div>
                         <div className="my-3 mx-2">
-                            <img className="image-team rounded-full w-3/5 mx-auto" src="/images/volunteer5.jpg" alt="volunteer-5" />
+                            <img className="image-team rounded-full w-3/5 mx-auto" src="/images/volunteer5_edited.jpg" alt="volunteer-5" />
                             <h2 className="text-center text-gray-800 text-4xl my-4">Solange</h2>
                         </div>
                         <div className="my-3 mx-2">
@@ -86,7 +86,7 @@ export default function Team() {
                             <h2 className="text-center text-gray-800 text-4xl my-4">Marco</h2>
                         </div>
                         <div className="mt-3 mx-2 mb-5">
-                            <img className="image-team rounded-full w-3/5 mx-auto" src="/images/volunteer9.jpg" alt="volunteer-6" />
+                            <img className="image-team  rounded-full w-3/5 mx-auto" src="/images/volunteer9.jpg" alt="volunteer-6" />
                             <h2 className="text-center text-gray-800 text-4xl my-4">Fortunato</h2>
                         </div>
                     </div>

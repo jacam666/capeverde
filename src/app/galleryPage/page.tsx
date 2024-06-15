@@ -57,7 +57,7 @@ export default function Gallery() {
         "/images/gallery6.jpg",
         "/images/gallery7.jpg",
         "/images/gallery8.jpg",
-        "/images/gallery9.jpg",
+        "/images/gallery12.jpg",
         "/images/gallery10.jpg",
         "/images/gallery11.jpg"
     ];

@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#plaintext
+EMAIL=jacamdevelopertest@gmail.com
+EMAIL_PASSWORD=testaccount
+CONTACT_EMAIL=jacamdevelopertest@gmail.com

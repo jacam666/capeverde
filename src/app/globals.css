@@ -24,13 +24,16 @@ body {
   margin: auto;
   align-items: center;
 }
-.homepage-image {
-  /* width: 80%;
-  height: 50%;
-  object-fit: cover; */
-}
-.image-team {
+
+.homepage-button:hover {
+  border-color: purple;
 }
 
- 
+/* .image-team {
+  transition: transform 0.5s ease-in;
+} */
 
+.image-team:hover {
+  /* transform: scale(1.2);  */
+  box-shadow: 2px white;
+}

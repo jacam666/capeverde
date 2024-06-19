@@ -1,6 +1,7 @@
 "use client"
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
@@ -11,18 +12,18 @@ export default function Footer() {
                 </div>
 
                 <div className='text-black'>
-                    <a href='' className='me-4 text-reset'>
+                    <Link href='/Home' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
-                    </a>
-                    <a href='' className='me-4 text-reset'>
+                    </Link>
+                    <Link href='' className='me-4 text-reset'>
                         <MDBIcon fab icon="twitter" />
-                    </a>
-                    <a href='' className='me-4 text-reset'>
+                    </Link>
+                    <Link href='' className='me-4 text-reset'>
                         <MDBIcon fab icon="google" />
-                    </a>
-                    <a href='' className='me-4 text-reset'>
+                    </Link>
+                    <Link href='' className='me-4 text-reset'>
                         <MDBIcon fab icon="instagram" />
-                    </a>
+                    </Link>
                 </div>
             </section>
 
@@ -32,24 +33,24 @@ export default function Footer() {
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                             <p>
-                                <a href='/' className='text-reset'>
+                                <Link href='/' className='text-reset'>
                                     Home
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='./whatWeDo' className='text-reset'>
+                                <Link href='./whatWeDo' className='text-reset'>
                                     What we do
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='./whoWeAre' className='text-reset'>
+                                <Link href='./whoWeAre' className='text-reset'>
                                     Who we are
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='./getInvolved' className='text-reset'>
+                                <Link href='./getInvolved' className='text-reset'>
                                     Get involved
-                                </a>
+                                </Link>
                             </p>
                         </MDBCol>
 
@@ -66,9 +67,9 @@ export default function Footer() {
 
             <div className='text-center p-4 text-black' style={{ backgroundColor: 'rgba(0, 0, 0, 0.01)' }}>
                 © 2024 Copyright:
-                <a className='text-reset fw-bold' href='#'>
+                <Link className='text-reset fw-bold' href='/'>
                     CamDesigns.com
-                </a>
+                </Link>
             </div>
         </MDBFooter>
     );

@@ -4,6 +4,7 @@ import ResponsiveNavbar from "../components/ResponsiveNavbar"
 //import Footer from '../components/Footer';
 import SmallerFooter from '../components/SmallerFooter';
 import HomePageButton from '../components/HomePageButton';
+import Link from 'next/link';
 
 
 export const metadata = {
@@ -45,16 +46,21 @@ export default function Donate() {
                 <div className='py-2 mt-3'>
                     <div className="grid sm:grid-cols-2  lg:grid-cols-4 gap-2 pt-3 mx-3 mb-3">
                         <div className="flex justify-center w-1/2 sm:w-2/3 mx-auto sm:mb-8 lg:my-auto">
-                            <a href='https://paypal.com' className="image-container">
+                            <Link href='https://paypal.com' className="image-container">
                                 <img src="/images/paypal.png" alt="Image 1" />
-                            </a>
+                            </Link>
                         </div>
                         <div className=' text-2xl lg:text-xl text-gray-800 my-4 flex items-center'>
                             <div>
-                                If you want to donate via Paypal, simply click <a href='https://paypal.com'>here</a> and follow the simple instructions. Paypal is safe and secure, and you can donate via Paypal also if you do not have a Paypal account.
+                                If you want to donate via PayPal, simply click{" "}
+                                <Link href="https://paypal.com" target="_blank" rel="noopener noreferrer">
+                                    here
+                                </Link>{" "}
+                                and follow the simple instructions. PayPal is safe and secure, and you
+                                can donate via PayPal even if you do not have a PayPal account.
                             </div>
                         </div>
-                        <div  className="flex justify-center">
+                        <div className="flex justify-center">
                             <div className="w-1/2 sm:w-2/3 lg:my-auto">
                                 <img src='/images/qrcode_www.paypal.com.png' />
                             </div>

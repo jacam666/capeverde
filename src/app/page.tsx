@@ -19,7 +19,9 @@ export default function Home() {
           <h1 className="homepage-header text-6xl sm:text-7xl text-gray-900 mt-8 mb-6">
             My Cape Verde
           </h1>
-          <p className="text-2xl px-2 text-gray-800 text-center lg:w-2/3 mb-2 xl:w-1/2 mx-auto">
+          <p className="text-2xl px-2 text-gray-800 lg:w-2/3 mb-2 xl:w-1/2 mx-auto
+                        first-letter:text-4xl
+                        ">
             We are a welfare charity aiming to help overcome poverty in Cape Verde and improve the quality of life for Cape Verdeans.
           </p>
         </div>

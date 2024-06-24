@@ -92,7 +92,7 @@ export default function Home() {
           Be Part of the Change
         </h1>
         <p className="text-xl sm:w-1/2 text-center mx-auto mb-6 text-gray-800">
-          Join us in making difference.
+          Join us in making a difference.
         </p>
         <HomePageButton />
       </div>

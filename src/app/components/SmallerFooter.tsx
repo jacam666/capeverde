@@ -43,12 +43,8 @@ export default function SmallerFooter() {
                     </MDBRow>
                 </MDBContainer>
             </section>
-
             <div className='text-center p-4 text-black' style={{ backgroundColor: 'rgba(0, 0, 0, 0.01)' }}>
-                © 2024 Copyright:
-                <Link className='text-reset fw-bold' href='#'>
-                    CamDesigns.com
-                </Link>
+                © 2024 Copyright:<span className='font-bold'>CamDesigns</span>
             </div>
         </MDBFooter>
     );

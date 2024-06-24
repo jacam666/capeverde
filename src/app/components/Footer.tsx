@@ -12,7 +12,7 @@ export default function Footer() {
                 </div>
 
                 <div className='text-black'>
-                    <Link href='/Home' className='me-4 text-reset'>
+                    <Link href='https://www.facebook.com/people/My-Cape-Verde/61559008711093/' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
                     </Link>
                     <Link href='' className='me-4 text-reset'>
@@ -31,27 +31,22 @@ export default function Footer() {
                 <MDBContainer className='text-center text-md-start mt-5'>
                     <MDBRow className='mt-3'>
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
-                            <p>
-                                <Link href='/' className='text-reset'>
-                                    Home
-                                </Link>
-                            </p>
-                            <p>
+                            <h6 className='text-uppercase fw-bold mb-3'>Useful links</h6>
+                            <div>
                                 <Link href='./whatWeDo' className='text-reset'>
                                     What we do
                                 </Link>
-                            </p>
-                            <p>
+                            </div>
+                            <div>
                                 <Link href='./whoWeAre' className='text-reset'>
                                     Who we are
                                 </Link>
-                            </p>
-                            <p>
+                            </div>
+                            <div>
                                 <Link href='./getInvolved' className='text-reset'>
                                     Get involved
                                 </Link>
-                            </p>
+                            </div>
                         </MDBCol>
 
                         <MDBCol md="5" lg="4" xl="3" className='mx-auto mb-md-0 mb-4'>
@@ -64,12 +59,8 @@ export default function Footer() {
                     </MDBRow>
                 </MDBContainer>
             </section>
-
             <div className='text-center p-4 text-black' style={{ backgroundColor: 'rgba(0, 0, 0, 0.01)' }}>
-                © 2024 Copyright:
-                <Link className='text-reset fw-bold' href='/'>
-                    CamDesigns.com
-                </Link>
+                © 2024 Copyright:<span className='font-bold'>CamDesigns</span>
             </div>
         </MDBFooter>
     );

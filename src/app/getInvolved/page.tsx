@@ -30,7 +30,7 @@ export default function GetInvolved() {
                             </div>
                             <div className="flex justify-center">
                                 <div className="image-container py-2">
-                                    <img src="/images/getinvolved1.jpg" alt="Image 1" />
+                                    <img src="/images/getInvolved2_edited.jpg" alt="Image 1" />
                                 </div>
                             </div>
                         </div>

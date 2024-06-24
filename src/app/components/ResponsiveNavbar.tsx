@@ -35,7 +35,7 @@ export default function ResponsiveNavbar() {
                         <MDBNavbarLink className='text-black' href='./whatWeDo'>What we do</MDBNavbarLink>
                         <MDBNavbarLink className='text-black' href='./whoWeAre'>Who we are</MDBNavbarLink>
                         <MDBNavbarLink className='text-black' href='./getInvolved'>Get involved</MDBNavbarLink>
-                        <MDBNavbarLink className='text-black' href='./contactUs'>Contact Us</MDBNavbarLink>
+                        {/* <MDBNavbarLink className='text-black' href='./contactUs'>Contact Us</MDBNavbarLink> */}
                         <MDBNavbarLink className='text-black' href='./donatePage'>Donate</MDBNavbarLink>
                         <MDBNavbarLink className='text-black' href='./galleryPage'>Gallery</MDBNavbarLink>
                         <MDBNavbarLink className='text-black' href='./ourTeam'>Our Team</MDBNavbarLink>

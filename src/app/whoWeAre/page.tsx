@@ -58,7 +58,7 @@ export default function WhoWeAre() {
 
                     <h2 className='homepage-header text-6xl sm:text-7xl text-gray-900 mt-14 mb-6'>Our Mission:</h2>
                     <div className='text-black text-lg sm:text-xl lg:text-2xl mb-6  '>
-                        <ul className='list-disc pl-5 space-y-2'>
+                        <ul className='list-disc pl-5 space-y-2 text-left'>
                             <li>To provide the locals in need with food parcels.</li>
                             <li>To provide clothing – the majority are provided by donations.</li>
                             <li>To provide toiletries – many adults and children do not own a toothbrush.</li>

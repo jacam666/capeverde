@@ -15,13 +15,13 @@ export default function Footer() {
                     <Link href='https://www.facebook.com/people/My-Cape-Verde/61559008711093/' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
                     </Link>
-                    <Link href='' className='me-4 text-reset'>
+                    <Link href='/' className='me-4 text-reset'>
                         <MDBIcon fab icon="twitter" />
                     </Link>
-                    <Link href='' className='me-4 text-reset'>
+                    <Link href='/' className='me-4 text-reset'>
                         <MDBIcon fab icon="google" />
                     </Link>
-                    <Link href='' className='me-4 text-reset'>
+                    <Link href='https://www.instagram.com/mycapeverdecharity?igsh=MXhoZnB5dTIxZG5hZw== ' className='me-4 text-reset'>
                         <MDBIcon fab icon="instagram" />
                     </Link>
                 </div>

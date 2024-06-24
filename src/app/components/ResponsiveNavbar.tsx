@@ -17,7 +17,7 @@ export default function ResponsiveNavbar() {
     const [openNavSecond, setOpenNavSecond] = useState(false)
     return (
         <MDBNavbar className='bg-gradient-to-r from-blue-10 to-slate-40 text-black' expand='lg' light bgColor='light'>
-            <MDBContainer fluid className='d-flex justify-content-between align-items-center'>
+            <MDBContainer fluid className='flex'>
                 <MDBNavbarBrand>
                     <MDBNavbarLink href='/'>My Cape Verde</MDBNavbarLink>
                     <img src='/images/image.png' alt="Logo" className="h-10 ml-5" />
@@ -29,7 +29,7 @@ export default function ResponsiveNavbar() {
                 >
                     <MDBIcon icon='bars' fas />
                 </MDBNavbarToggler>
-                <MDBCollapse navbar open={openNavSecond}>
+                <MDBCollapse navbar open={openNavSecond} className='lg:flex lg:justify-end lg:mr-5 flex justify-start'>
                     <MDBNavbarNav className='ml-auto'>
                         <MDBNavbarLink className='text-black' active aria-current='page' href='/'>Home</MDBNavbarLink>
                         <MDBNavbarLink className='text-black' href='./whatWeDo'>What we do</MDBNavbarLink>

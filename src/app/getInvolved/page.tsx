@@ -229,7 +229,7 @@ export default function GetInvolved() {
                     <p className='text-xl px-7 text-gray-800 text-center lg:w-4/5 mx-auto my-6'>
                         Health care and medicines are inadequate and expensive on the islands. Although we do not
                         give medicines, we can help with promoting a healthy lifestyle and can provide some medical
-                        aids.
+                        aids. All medicines donated will be passed to the appropriate authorities.
                         Many children do not brush their teeth regularly. Tourists feel sorry for the children and give
                         them sweets, unaware that they do not brush their teeth. On our activity events, we always try
                         and ensure that each child gets a toothbrush and toothpaste at the end of the event.<br />

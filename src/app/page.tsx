@@ -91,8 +91,11 @@ export default function Home() {
         <h1 className="homepage-header text-4xl text-gray-900 mb-4 ">
           Be Part of the Change
         </h1>
-        <p className="text-xl sm:w-1/2 text-center mx-auto mb-6 text-gray-800">
+        <p className="text-xl sm:w-1/2 text-center mx-auto text-gray-800">
           Join us in making a difference.
+        </p>
+        <p className="text-xl sm:w-2/3 text-center mx-auto mb-6 text-gray-800">
+          Helping someone might not change the world, but it can mean the world for someone.
         </p>
         <HomePageButton />
       </div>

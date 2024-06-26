@@ -53,7 +53,7 @@ export default function Donate() {
                         <div className=' text-2xl lg:text-xl text-gray-800 my-4 flex items-center'>
                             <div>
                                 If you want to donate via PayPal, simply click{" "}
-                                <Link href="https://paypal.com" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://www.paypal.com/ncp/payment/SZF2GGF724EHJ" target="_blank" rel="noopener noreferrer">
                                     here
                                 </Link>{" "}
                                 and follow the simple instructions. PayPal is safe and secure, and you

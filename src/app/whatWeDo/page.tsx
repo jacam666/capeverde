@@ -112,7 +112,7 @@ export default function WhatWeDo() {
                 <div className='py-2 mx-3 mb-3'>
                     <div className='text-black px-3 text-xl pt-2 text-center'>
                         <p className='homepage-header text-xl md:text-3xl w-5/6 mx-auto md:p-5'>
-                            We hold activity events including various sports, games and discos.
+                            We hold education programs, activities and events including various sports, games and discos.
                             We work with other associations and groups on the islands to improve the lives of Cape
                             Verdeans.
                         </p>

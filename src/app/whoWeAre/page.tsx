@@ -64,7 +64,7 @@ export default function WhoWeAre() {
                             <li>To provide toiletries – many adults and children do not own a toothbrush.</li>
                             <li>To provide medical aids – wheelchairs, frames etc. are scarce on the islands.</li>
                             <li>To host activity days – working with local clubs, we promote various sports for the children/young adults.</li>
-                            <li>To help with health and mentality.</li>
+                            <li>We host education programs to help with health and mentality.</li>
                             <li>To help schools – providing school supplies and stationery.</li>
                             <li>To make Christmas special for as many children as possible with a Christmas gift bag.</li>
                             <li>To be environmentally aware – we encourage reusable donations.</li>
